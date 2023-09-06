@@ -1,27 +1,56 @@
-\documentclass[]{scrarticle}
-\usepackage[left=2cm,right=2cm,top=2.5cm,bottom=2.5cm]{geometry}
-\usepackage{arsclassica}
-\usepackage{classicthesis}
-\usepackage{amsmath, amssymb, tikz, amsthm, csquotes, multicol, footnote, tablefootnote, biblatex, wrapfig, float, epigraph, hyperref}
-\newtheorem{theorem}{Theorem}[section]
-\newtheorem{corollary}{Corollary}[theorem]
-\newtheorem{lemma}[theorem]{Lemma}
-\newtheorem{proposition}[theorem]{Proposition}
-\theoremstyle{definition}
-\newtheorem{definition}{Definition}[section]
-\theoremstyle{remark}
-\newtheorem*{remark}{Remark}
-\theoremstyle{example}
-\newtheorem{example}{Example}
+\documentclass{amsart}
+\usepackage[margin=1.1in]{geometry} 
+\usepackage{amsmath}
+\usepackage{tcolorbox}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{accents}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{color}
+\input{shortcuts.tex}
+\setlength{\headheight}{40pt}
 
-\title{MATH 292Z: First Steps in Infinity Categories}
-\author{\spacedlowsmallcaps{Wern Juin Gabriel Ong}}
-\date{}
+
+\newenvironment{solution}
+  {\renewcommand\qedsymbol{$\blacksquare$}
+  \begin{proof}[Solution]}
+  {\end{proof}}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\usepackage{amsmath, amssymb, tikz, amsthm, csquotes, multicol, footnote, tablefootnote, biblatex, wrapfig, float, quiver, mathrsfs, cleveref, enumitem}
+\addbibresource{refs.bib}
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{question}[theorem]{Question}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem*{remark}{Remark}
+\newtheorem{definition}[theorem]{Definition}
+\numberwithin{equation}{section}
 \begin{document}
+\large
+\title[Infinity Categories]{MATH 292Z: First Steps in Infinity Categories}
+\author{Wern Juin Gabriel Ong}
+\address{Bowdoin College, Brunswick, Maine 04011}
+\email{gong@bowdoin.edu}
+\urladdr{https://wgabrielong.github.io/}
 \maketitle
-\begin{abstract}
-    These notes roughly correspond to the course \texttt{MATH 292Z: First Steps in Infinity Categories} taught by Prof. Michael Hopkins at Harvard University in the Fall 2023 semester. These notes are \LaTeX-ed after the fact with significant alteration and are subject to misinterpretation and mistranscription. Use with caution. Any errors are undoubtedly my own and any virtues that could be ascribed to these notes ought be attributed to the instructor and not the typist. 
-\end{abstract}
+\section*{Preliminaries}
+These notes roughly correspond to the course \textbf{MATH 292Z: First Steps in Infinity Categories} taught by Prof. Michael Hopkins at Harvard University in the Fall 2023 semester. These notes are \LaTeX-ed after the fact with significant alteration and are subject to misinterpretation and mistranscription. Use with caution. Any errors are undoubtedly my own and any virtues that could be ascribed to these notes ought be attributed to the instructor and not the typist. 
 \tableofcontents
-\section{Lecture 1}
+\section{Lecture 1 -- 6th September 2023}
+Understanding infinity categories is a daunting task. Ideally, we will end this class with the student being conversant in the language of infinity categories, though this may be difficult to achieve. Let us start with the definition of a (1-)category. 
+\begin{definition}[Category]
+    A category $\Csf$ is a class $\Obj(\Csf)$ and for each $A,B\in\Obj(\Csf)$ a set $\Mor_{\Csf}(A,B)$ of morphisms from $A$ to $B$ such that
+    \begin{enumerate}[label=(\alph*)]
+        \item $\id_{A}\in\Mor_{\Csf}(A,A)$,
+        \item A composition law $\Mor_{\Csf}(B,C)\times\Mor_{\Csf}(A,B)\to\Mor_{\Csf}(A,C)$ by $(g,f)\mapsto g\circ f$ that is unital $\id_{A}\circ f=f=f\circ\id_{B}$ and associating $(g\circ f)\circ h=g\circ(f\circ h)$. 
+    \end{enumerate}
+\end{definition}
 \end{document}

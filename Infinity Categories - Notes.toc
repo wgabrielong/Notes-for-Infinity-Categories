@@ -1,2 +1,2 @@
-\contentsline {section}{\numberline {1}{Lecture 1}}{1}{section.1}%
-\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
+\contentsline {section}{\tocsection {}{}{Preliminaries}}{1}{section*.1}%
+\contentsline {section}{\tocsection {}{1}{Lecture 1 -- 6th September 2023}}{1}{section.1}%

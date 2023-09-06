@@ -78,5 +78,8 @@
     <requires type="dynamic">
       <file>"Infinity Categories - Notes".bcf</file>
     </requires>
+    <requires type="editable">
+      <file>refs.bib</file>
+    </requires>
   </external>
 </requests>
