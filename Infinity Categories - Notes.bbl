@@ -1,0 +1,45 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Rezk}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=71cc51e3c0ac090026d1e96750933ae0}{%
+           family={Rezk},
+           familyi={R\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{71cc51e3c0ac090026d1e96750933ae0}
+      \strng{fullhash}{71cc51e3c0ac090026d1e96750933ae0}
+      \strng{bibnamehash}{71cc51e3c0ac090026d1e96750933ae0}
+      \strng{authorbibnamehash}{71cc51e3c0ac090026d1e96750933ae0}
+      \strng{authornamehash}{71cc51e3c0ac090026d1e96750933ae0}
+      \strng{authorfullhash}{71cc51e3c0ac090026d1e96750933ae0}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to Quasicategories}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
