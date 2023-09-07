@@ -38,6 +38,12 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Introduction to Quasicategories}
+      \verb{urlraw}
+      \verb https://people.math.rochester.edu/faculty/doug/otherpapers/Rezk-quasicats-intro.pdf
+      \endverb
+      \verb{url}
+      \verb https://people.math.rochester.edu/faculty/doug/otherpapers/Rezk-quasicats-intro.pdf
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
