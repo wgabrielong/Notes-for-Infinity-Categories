@@ -1,20 +1,22 @@
 # Fdb version 4
-["biber Infinity Categories - Notes"] 1694113921 "Infinity Categories - Notes.bcf" "Infinity Categories - Notes.bbl" "Infinity Categories - Notes" 1694223673 0
-  "./refs.bib" 1694106512 198 b5dc8b4a3b9bac6e5466a92531f481c1 ""
-  "Infinity Categories - Notes.bcf" 1694223672 107754 7137bc468bce7157ab960cc04b77b86e "pdflatex"
+["biber Infinity Categories - Notes"] 1694492052 "Infinity Categories - Notes.bcf" "Infinity Categories - Notes.bbl" "Infinity Categories - Notes" 1694492136 0
+  "./refs.bib" 1694488781 487 5e464279820c1bed07f53ab35938594f ""
+  "Infinity Categories - Notes.bcf" 1694492135 107932 009a839d5c5cf3b8ed8110a19eb49946 "pdflatex"
   (generated)
   "Infinity Categories - Notes.bbl"
   "Infinity Categories - Notes.blg"
   (rewritten before read)
-["pdflatex"] 1694223668 "c:/Users/bullg/OneDrive - Bowdoin College/2023 Fall/MATH 292Z - Infinity Categories/Notes-for-Infinity-Categories/Infinity Categories - Notes.tex" "Infinity Categories - Notes.pdf" "Infinity Categories - Notes" 1694223673 0
-  "Infinity Categories - Notes.aux" 1694223672 1375 f351a0d6e8ddc780c0e1820fab17b64c "pdflatex"
-  "Infinity Categories - Notes.bbl" 1694113924 1706 a07d5790c81849f33ece587d6d91f209 "biber Infinity Categories - Notes"
-  "Infinity Categories - Notes.out" 1694223672 432 71f90d9c9d2171057160077a26398d93 "pdflatex"
-  "Infinity Categories - Notes.run.xml" 1694223672 2474 ad16fce222cc88b9377b9d67d8e16ab1 "pdflatex"
-  "Infinity Categories - Notes.tex" 1694223667 15748 41b54656c73fabd7b032e228efec3ca4 ""
-  "Infinity Categories - Notes.toc" 1694223672 234 ae8b930f12b2fad6020e9372d8b31960 "pdflatex"
-  "c:/Users/bullg/OneDrive - Bowdoin College/2023 Fall/MATH 292Z - Infinity Categories/Notes-for-Infinity-Categories/Infinity Categories - Notes.tex" 1694223667 15748 41b54656c73fabd7b032e228efec3ca4 ""
+["pdflatex"] 1694492131 "c:/Users/bullg/OneDrive - Bowdoin College/2023 Fall/MATH 292Z - Infinity Categories/Notes-for-Infinity-Categories/Infinity Categories - Notes.tex" "Infinity Categories - Notes.pdf" "Infinity Categories - Notes" 1694492136 0
+  "Infinity Categories - Notes.aux" 1694492135 3045 d51fcb2b21bb6a0c4d3949bff3d87878 "pdflatex"
+  "Infinity Categories - Notes.bbl" 1694492056 2801 a975782a540252d679ef375552f99042 "biber Infinity Categories - Notes"
+  "Infinity Categories - Notes.out" 1694492135 666 5cc052f0bcd8087e48c24e2c3c46254e "pdflatex"
+  "Infinity Categories - Notes.run.xml" 1694492135 2474 ad16fce222cc88b9377b9d67d8e16ab1 "pdflatex"
+  "Infinity Categories - Notes.tex" 1694492130 27713 e8e992537cf312fb0c55035b380ec7f7 ""
+  "Infinity Categories - Notes.toc" 1694492135 326 32c1bc130c14562e1e25397a91b8f073 "pdflatex"
+  "c:/Users/bullg/OneDrive - Bowdoin College/2023 Fall/MATH 292Z - Infinity Categories/Notes-for-Infinity-Categories/Infinity Categories - Notes.tex" 1694492130 27713 e8e992537cf312fb0c55035b380ec7f7 ""
+  "c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1681144982 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1681145940 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "c:/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1681145551 1536 02c06700a42be0f5a28664c7273f82e7 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1681144236 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1681144236 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/euler/eurm10.tfm" 1681144236 1228 9be37fdf0dc0e1f4df4af3594876d628 ""
@@ -69,6 +71,7 @@
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb" 1681144236 22644 35cfbc2e737f53c1da991002473b4310 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1681144236 31764 459c573c03a4949a528c2cc7f557e217 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1681144236 34694 870c211f62cb72718a00e353f14f254d ""
+  "c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb" 1681144982 145929 5c9aebea9ba6e33fc93158c04a3bdcd8 ""
   "c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1681147409 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/texlive/2023/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1681144363 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "c:/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1681144678 40635 c40361e206be584d448876bba8a64a3b ""
@@ -243,7 +246,7 @@
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1681151582 7885515 4edb96652e45d78da49c70adaf423337 ""
   "c:/texlive/2023/texmf.cnf" 1681149909 713 e69b156964470283e0530f5060668171 ""
   "quiver.sty" 1675117568 1606 ac24526cc82038afe47d6f803f11170f ""
-  "shortcuts.tex" 1694044203 2247 79700cf48259bda8d0536a26994df65f ""
+  "shortcuts.tex" 1694487955 2545 752864e1bbed7a02df81d560914788b0 ""
   (generated)
   "Infinity Categories - Notes.aux"
   "Infinity Categories - Notes.bcf"

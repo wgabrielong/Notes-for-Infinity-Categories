@@ -45,6 +45,35 @@
       \verb https://people.math.rochester.edu/faculty/doug/otherpapers/Rezk-quasicats-intro.pdf
       \endverb
     \endentry
+    \entry{Riehl}{book}{}
+      \name{author}{1}{}{%
+        {{hash=45a94503b2898b54c4e429a46414d3ad}{%
+           family={Riehl},
+           familyi={R\bibinitperiod},
+           given={Emily},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Mineola, NY: Dover Publications}%
+      }
+      \strng{namehash}{45a94503b2898b54c4e429a46414d3ad}
+      \strng{fullhash}{45a94503b2898b54c4e429a46414d3ad}
+      \strng{bibnamehash}{45a94503b2898b54c4e429a46414d3ad}
+      \strng{authorbibnamehash}{45a94503b2898b54c4e429a46414d3ad}
+      \strng{authornamehash}{45a94503b2898b54c4e429a46414d3ad}
+      \strng{authorfullhash}{45a94503b2898b54c4e429a46414d3ad}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-486-80903-8}
+      \field{title}{Category theory in context}
+      \field{year}{2016}
+      \keyw{18-01,18A05,18A15,01A75}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
