@@ -539,7 +539,7 @@ $$% https://q.uiver.app/#q=WzAsNCxbMCwxLCJcXENzZl97aX0iXSxbMywxXSxbNCwxLCJcXENzZ
 	\arrow[""{name=0, anchor=center, inner sep=0}, "{F_{ik}}"', from=2-1, to=2-5]
 	\arrow["{\varepsilon_{ijk}}", shift left, shorten <=2pt, shorten >=5pt, Rightarrow, from=0, to=1-3]
 \end{tikzcd}$$
-Additionally, we require the functors to satisfy the following ``cocycle'' conditons which we now explain. Given $(\Cat_{1})_{3}$ 
+Additionally, we require the functors to satisfy the following ``cocycle conditons'' which we now explain. Given $(\Cat_{1})_{3}$ 
 $$% https://q.uiver.app/#q=WzAsNCxbMCwzLCJcXENzZl97aX0iXSxbMywyLCJcXENzZl97bH0iXSxbMiwwLCJcXENzZl97a30iXSxbMyw0LCJcXENzZl97an0iXSxbMiwxLCJGX3trbH0iXSxbMCwxLCJGX3tpbH0iLDFdLFszLDIsIkZfe2prfSIsMV0sWzAsMywiRl97aWp9IiwyXSxbMywxLCJGX3tqbH0iLDFdLFswLDIsIkZfe2lrfSIsMV1d
 \begin{tikzcd}
 	&& {\Csf_{k}} \\
@@ -576,17 +576,17 @@ $$% https://q.uiver.app/#q=WzAsOSxbMCwyLCJcXENzZl97aX0iXSxbMiwzLCJcXENzZl97an0iX
 	\arrow["{\varepsilon_{ikl}}", shorten <=7pt, shorten >=10pt, Rightarrow, from=4, to=3]
 	\arrow["{\varepsilon_{ijk}}", shorten <=5pt, shorten >=3pt, Rightarrow, from=3, to=4-10]
 \end{tikzcd}$$
-that $\varepsilon_{ijk}\circ\varepsilon_{ikl}=\varepsilon_{jkl}\circ\varepsilon_{ikl}$. More explicitly, we have natural transformations 
+that $\varepsilon_{ijl}\circ\varepsilon_{jkl}=\varepsilon_{ijk}\circ\varepsilon_{ikl}$. More explicitly, we have natural transformations 
 \begin{center}
 \begin{tabular}{c c}
-  $\varepsilon_{ijk}:F_{ik}\to F_{jk}\circ F_{ij}$ & $\varepsilon_{ikl}:F_{il}\to F_{kl}\circ F_{ik}$ \\
-  $\varepsilon_{jkl}:F_{jl}\to F_{kl}\circ F_{jk}$ & $\varepsilon_{ijl}:F_{il}\to F_{jl}\circ F_{ij}$
+  $\varepsilon_{ijl}:F_{il}\to F_{jl}\circ F_{ij}$ & $\varepsilon_{ikl}:F_{il}\to F_{kl}\circ F_{ik}$ \\
+  $\varepsilon_{jkl}:F_{jl}\to F_{kl}\circ F_{jk}$ & $\varepsilon_{ijk}:F_{ik}\to F_{jk}\circ F_{ij}$
 \end{tabular}
 \end{center}
-where the ``cocycle condition'' asserts that the compositions of functors as they arise from different composite functors agree where composing the natural transformations to the ``longest chain'' in two different ways
-$$\varepsilon_{jkl}\circ\varepsilon_{ikl}:F_{il}\to F_{kl}\circ F_{jk}\circ F_{ij}$$
-$$\varepsilon_{jkl}\circ\varepsilon_{ikl}:F_{il}\to F_{kl}\circ F_{jk}\circ F_{ij}$$
-agree, as one would naturally expect. 
+where the ``cocycle condition'' asserts that the the composition of functors is associative
+$$\varepsilon_{jkl}\circ\varepsilon_{ijl}:F_{il}\to(F_{kl}\circ F_{jk})\circ F_{ij}$$
+$$\varepsilon_{ijk}\circ\varepsilon_{ikl}:F_{il}\to F_{kl}\circ(F_{jk}\circ F_{ij})$$
+by forcing the natural transformations to agree as one would expect. 
 \begin{remark}
   $h\Cat_{1}$ is the category whose objects are categories and whose morphisms are functors modulo isomorphic natural transformations. 
 \end{remark}
