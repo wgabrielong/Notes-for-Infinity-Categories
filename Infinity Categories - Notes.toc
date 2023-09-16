@@ -1,4 +1,5 @@
 \contentsline {section}{\tocsection {}{}{Preliminaries}}{1}{section*.1}%
 \contentsline {section}{\tocsection {}{1}{Lecture 1 -- 6th September 2023}}{1}{section.1}%
 \contentsline {section}{\tocsection {}{2}{Lecture 2 -- 11th September 2023}}{5}{section.2}%
-\contentsline {section}{\tocsection {}{}{References}}{9}{section*.3}%
+\contentsline {section}{\tocsection {}{3}{Lecture 3 -- 13th September 2023}}{8}{section.3}%
+\contentsline {section}{\tocsection {}{}{References}}{13}{section*.3}%
