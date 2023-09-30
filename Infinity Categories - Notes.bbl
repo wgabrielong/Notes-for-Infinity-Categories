@@ -19,6 +19,28 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{kerodon}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=760ea879284b1a6eeaad87a82be8d1d7}{%
+           family={Lurie},
+           familyi={L\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{760ea879284b1a6eeaad87a82be8d1d7}
+      \strng{fullhash}{760ea879284b1a6eeaad87a82be8d1d7}
+      \strng{bibnamehash}{760ea879284b1a6eeaad87a82be8d1d7}
+      \strng{authorbibnamehash}{760ea879284b1a6eeaad87a82be8d1d7}
+      \strng{authornamehash}{760ea879284b1a6eeaad87a82be8d1d7}
+      \strng{authorfullhash}{760ea879284b1a6eeaad87a82be8d1d7}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://kerodon.net}}
+      \field{title}{Kerodon}
+      \field{year}{2023}
+    \endentry
     \entry{Rezk}{misc}{}
       \name{author}{1}{}{%
         {{hash=71cc51e3c0ac090026d1e96750933ae0}{%
