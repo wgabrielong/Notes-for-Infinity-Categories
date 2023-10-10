@@ -1,19 +1,19 @@
 # Fdb version 4
-["biber Infinity Categories - Notes"] 1696438934 "Infinity Categories - Notes.bcf" "Infinity Categories - Notes.bbl" "Infinity Categories - Notes" 1696438952 0
+["biber Infinity Categories - Notes"] 1696894422 "Infinity Categories - Notes.bcf" "Infinity Categories - Notes.bbl" "Infinity Categories - Notes" 1696894809 0
   "./refs.bib" 1696275820 847 6a59452c8d7e3a519a12ae5f1d35d95a ""
-  "Infinity Categories - Notes.bcf" 1696438951 108063 426dcfa640261a9e8f71aa6f1ecfc11b "pdflatex"
+  "Infinity Categories - Notes.bcf" 1696894808 108063 426dcfa640261a9e8f71aa6f1ecfc11b "pdflatex"
   (generated)
   "Infinity Categories - Notes.bbl"
   "Infinity Categories - Notes.blg"
   (rewritten before read)
-["pdflatex"] 1696438944 "c:/Users/bullg/OneDrive - Bowdoin College/2023 Fall/MATH 292Z - Infinity Categories/Notes-for-Infinity-Categories/Infinity Categories - Notes.tex" "Infinity Categories - Notes.pdf" "Infinity Categories - Notes" 1696438952 0
-  "Infinity Categories - Notes.aux" 1696438951 7783 3eb4ba325e67ce2c0400af1f0a3f4c54 "pdflatex"
-  "Infinity Categories - Notes.bbl" 1696438937 4683 874a13999f7c161e578bf6f0c081113c "biber Infinity Categories - Notes"
-  "Infinity Categories - Notes.out" 1696438951 1587 139727b55ce3c2f6c4882ba5634f57d4 "pdflatex"
-  "Infinity Categories - Notes.run.xml" 1696438951 2474 ad16fce222cc88b9377b9d67d8e16ab1 "pdflatex"
-  "Infinity Categories - Notes.tex" 1696438904 93331 9a69720742823e7647d92be686735b21 ""
-  "Infinity Categories - Notes.toc" 1696438951 695 cd0823c0ecd0a06d90ca73fe8f18bcc6 "pdflatex"
-  "c:/Users/bullg/OneDrive - Bowdoin College/2023 Fall/MATH 292Z - Infinity Categories/Notes-for-Infinity-Categories/Infinity Categories - Notes.tex" 1696438904 93331 9a69720742823e7647d92be686735b21 ""
+["pdflatex"] 1696894802 "c:/Users/bullg/OneDrive - Bowdoin College/2023 Fall/MATH 292Z - Infinity Categories/Notes-for-Infinity-Categories/Infinity Categories - Notes.tex" "Infinity Categories - Notes.pdf" "Infinity Categories - Notes" 1696894809 0
+  "Infinity Categories - Notes.aux" 1696894808 8629 e2413f9a0c8bf125f2fb275be2ae86eb "pdflatex"
+  "Infinity Categories - Notes.bbl" 1696894426 4683 874a13999f7c161e578bf6f0c081113c "biber Infinity Categories - Notes"
+  "Infinity Categories - Notes.out" 1696894808 1806 3b24a55164c9c826d951e6cc02c3f97c "pdflatex"
+  "Infinity Categories - Notes.run.xml" 1696894808 2474 ad16fce222cc88b9377b9d67d8e16ab1 "pdflatex"
+  "Infinity Categories - Notes.tex" 1696894801 102876 51cd2c6ece86532fe92759024afdaf3f ""
+  "Infinity Categories - Notes.toc" 1696894808 785 e1f82afc81e38bb6168207692189396d "pdflatex"
+  "c:/Users/bullg/OneDrive - Bowdoin College/2023 Fall/MATH 292Z - Infinity Categories/Notes-for-Infinity-Categories/Infinity Categories - Notes.tex" 1696894801 102876 51cd2c6ece86532fe92759024afdaf3f ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1681144982 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1681145940 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1681145551 1536 02c06700a42be0f5a28664c7273f82e7 ""
