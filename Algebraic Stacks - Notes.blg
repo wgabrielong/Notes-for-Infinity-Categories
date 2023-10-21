@@ -1,0 +1,17 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'Algebraic Stacks - Notes.blg'
+[184] biber-MSWIN64:340> INFO - === 
+[237] Biber.pm:419> INFO - Reading 'Algebraic Stacks - Notes.bcf'
+[416] Biber.pm:979> INFO - Found 3 citekeys in bib section 0
+[439] Biber.pm:4419> INFO - Processing section 0
+[463] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
+[529] bibtex.pm:1713> INFO - LaTeX decoding ...
+[543] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
+[639] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[639] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[639] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[639] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[645] bbl.pm:660> INFO - Writing 'Algebraic Stacks - Notes.bbl' with encoding 'UTF-8'
+[647] bbl.pm:763> INFO - Output to Algebraic Stacks - Notes.bbl
+[648] Biber.pm:131> WARN - ISBN '978-1-4704-2798-6; 978-1-4704-2865-5' in entry 'Olsson' is invalid - run biber with '--validate_datamodel' for details.
+[648] Biber.pm:133> INFO - WARNINGS: 1

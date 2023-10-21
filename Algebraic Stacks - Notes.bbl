@@ -1,0 +1,105 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Olsson}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a7554a741543f1f36342629af74900ef}{%
+           family={Olsson},
+           familyi={O\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Providence, RI: American Mathematical Society (AMS)}%
+      }
+      \strng{namehash}{a7554a741543f1f36342629af74900ef}
+      \strng{fullhash}{a7554a741543f1f36342629af74900ef}
+      \strng{bibnamehash}{a7554a741543f1f36342629af74900ef}
+      \strng{authorbibnamehash}{a7554a741543f1f36342629af74900ef}
+      \strng{authornamehash}{a7554a741543f1f36342629af74900ef}
+      \strng{authorfullhash}{a7554a741543f1f36342629af74900ef}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-4704-2798-6; 978-1-4704-2865-5}
+      \field{issn}{0065-9258}
+      \field{series}{Colloq. Publ., Am. Math. Soc.}
+      \field{title}{Algebraic spaces and stacks}
+      \field{volume}{62}
+      \field{year}{2016}
+      \keyw{14-02,14A20,14D23,14F20,14F05,14D22,14H10,14D20,18D30}
+    \endentry
+    \entry{stacks-project}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a3dbcb9991f2a884f2c608ad2335af9f}{%
+           family={{Stacks project authors}},
+           familyi={S\bibinitperiod},
+           given={The},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3dbcb9991f2a884f2c608ad2335af9f}
+      \strng{fullhash}{a3dbcb9991f2a884f2c608ad2335af9f}
+      \strng{bibnamehash}{a3dbcb9991f2a884f2c608ad2335af9f}
+      \strng{authorbibnamehash}{a3dbcb9991f2a884f2c608ad2335af9f}
+      \strng{authornamehash}{a3dbcb9991f2a884f2c608ad2335af9f}
+      \strng{authorfullhash}{a3dbcb9991f2a884f2c608ad2335af9f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://stacks.math.columbia.edu}}
+      \field{title}{The Stacks project}
+      \field{year}{2023}
+    \endentry
+    \entry{Vistoli}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=4653d7593ec79bcfc9e4cfca1b52ab61}{%
+           family={Vistoli},
+           familyi={V\bibinitperiod},
+           given={Angelo},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4653d7593ec79bcfc9e4cfca1b52ab61}
+      \strng{fullhash}{4653d7593ec79bcfc9e4cfca1b52ab61}
+      \strng{bibnamehash}{4653d7593ec79bcfc9e4cfca1b52ab61}
+      \strng{authorbibnamehash}{4653d7593ec79bcfc9e4cfca1b52ab61}
+      \strng{authornamehash}{4653d7593ec79bcfc9e4cfca1b52ab61}
+      \strng{authorfullhash}{4653d7593ec79bcfc9e4cfca1b52ab61}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{math.AG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Notes on Grothendieck topologies, fibered categories and descent theory}
+      \field{year}{2007}
+      \verb{eprint}
+      \verb math/0412512
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

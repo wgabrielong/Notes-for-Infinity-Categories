@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  21 OCT 2023 11:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  21 OCT 2023 14:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/bullg/OneDrive - Bowdoin College/2023 Fall/MATH 292Z - Infinity Categories/Notes-for-Infinity-Categories/Infinity Categories - Notes.tex"
-(c:/Users/bullg/OneDrive - Bowdoin College/2023 Fall/MATH 292Z - Infinity Categories/Notes-for-Infinity-Categories/Infinity Categories - Notes.tex
+**"c:/Users/bullg/OneDrive - Bowdoin College/Extracurricular Math Courses/Algebraic Stacks/Notes-for-Stacks/Algebraic Stacks - Notes.tex"
+(c:/Users/bullg/OneDrive - Bowdoin College/Extracurricular Math Courses/Algebraic Stacks/Notes-for-Stacks/Algebraic Stacks - Notes.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-03-30> (c:/texlive/2023/texmf-dist/tex/latex/amscls/amsart.cls
 Document Class: amsart 2020/05/29 v2.20.6
@@ -915,8 +915,8 @@ LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
 \c@theorem=\count465
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
- (./Infinity Categories - Notes.aux)
-\openout1 = `"Infinity Categories - Notes.aux"'.
+ (./Algebraic Stacks - Notes.aux)
+\openout1 = `"Algebraic Stacks - Notes.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
@@ -1004,9 +1004,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 37.
- (./Infinity Categories - Notes.out) (./Infinity Categories - Notes.out)
+ (./Algebraic Stacks - Notes.out) (./Algebraic Stacks - Notes.out)
 \@outlinefile=\write5
-\openout5 = `"Infinity Categories - Notes.out"'.
+\openout5 = `"Algebraic Stacks - Notes.out"'.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1016,144 +1016,39 @@ File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `"Infinity Categories - Notes.bcf"'.
+\openout4 = `"Algebraic Stacks - Notes.bcf"'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file '"Infinity Categories - Notes".bbl' found.
- (./Infinity Categories - Notes.bbl)
+Package biblatex Info: ... file '"Algebraic Stacks - Notes".bbl' found.
+ (./Algebraic Stacks - Notes.bbl)
 Package biblatex Info: Reference section=0 on input line 37.
 Package biblatex Info: Reference segment=0 on input line 37.
- (./Infinity Categories - Notes.toc)
+ (./Algebraic Stacks - Notes.toc)
 \tf@toc=\write6
-\openout6 = `"Infinity Categories - Notes.toc"'.
+\openout6 = `"Algebraic Stacks - Notes.toc"'.
 
- [1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 157--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--162
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 168--172
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 182--185
-
- []
-
-[4] [5]
-Overfull \hbox (15.9374pt too wide) in paragraph at lines 315--316
-[]\OT1/cmr/bx/n/10.95 Definition 2.6 \OT1/cmr/m/n/10.95 ($\OML/cmm/m/it/10.95 n$\OT1/cmr/m/n/10.95 -Simplex)\OT1/cmr/bx/n/10.95 . []\OT1/cmr/m/n/10.95 The $\OML/cmm/m/it/10.95 n$\OT1/cmr/m/n/10.95 -simplex is the func-tor $^^A[] : \U/eur/m/n/10.95 ^^A[] \OMS/cmsy/m/n/10.95 ! []$ \OT1/cmr/m/n/10.95 by $[\OML/cmm/m/it/10.95 k\OT1/cmr/m/n/10.95 ] \OMS/cmsy/m/n/10.95 7! [][]\OT1/cmr/m/n/10.95 ([\OML/cmm/m/it/10.95 k\OT1/cmr/m/n/10.95 ]\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 [\OML/cmm/m/it/10.95 n\OT1/cmr/m/n/10.95 ])$. 
- []
-
-[6] [7{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [8] [9] [10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 632--639
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 632--639
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 632--639
-
- []
-
-[12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 733--735
-
- []
-
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 772--774
-
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 841--844
-
- []
-
-[16] [17]
-Overfull \hbox (19.37294pt too wide) in paragraph at lines 975--976
-[]\OT1/cmr/bx/n/10.95 Theorem 5.9 \OT1/cmr/m/n/10.95 (Joyal)\OT1/cmr/bx/n/10.95 . []\OT1/cmr/m/n/10.95 If $\OML/cmm/m/it/10.95 W$ \OT1/cmr/m/n/10.95 is a qua-si-cat-e-gory and $\OML/cmm/m/it/10.95 X$ \OT1/cmr/m/n/10.95 a sim-pli-cial set, the cat-e-gory $[][](\OML/cmm/m/it/10.95 X; W\OT1/cmr/m/n/10.95 ) =
- []
-
-[18] [19]
-Underfull \hbox (badness 10000) in paragraph at lines 1101--1105
-
- []
-
-[20] [21]
-Underfull \hbox (badness 10000) in paragraph at lines 1198--1202
-
- []
-
-[22] [23]
-Underfull \hbox (badness 10000) in paragraph at lines 1339--1343
-
- []
-
-[24] [25] [26]
-Underfull \hbox (badness 10000) in paragraph at lines 1566--1569
-
- []
-
-[27] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 1661--1664
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1671--1674
-
- []
-
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 1724--1729
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1724--1729
-
- []
-
-[30]
-Underfull \hbox (badness 10000) in paragraph at lines 1748--1752
-
- []
-
-[31] [32] [33] [34] 
+ [1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] 
 enddocument/afterlastpage: lastpage setting LastPage.
-(./Infinity Categories - Notes.aux)
-Package rerunfilecheck Info: File `"Infinity Categories - Notes".out' has not changed.
-(rerunfilecheck)             Checksum: 7644651834D688BA60146BF0690B3B46;2492.
-Package logreq Info: Writing requests to '"Infinity Categories - Notes".run.xml'.
-\openout1 = `"Infinity Categories - Notes.run.xml"'.
+(./Algebraic Stacks - Notes.aux)
+Package rerunfilecheck Info: File `"Algebraic Stacks - Notes".out' has not changed.
+(rerunfilecheck)             Checksum: 09FC25FF23DC83865FA7EB53F9CA3CBE;264.
+Package logreq Info: Writing requests to '"Algebraic Stacks - Notes".run.xml'.
+\openout1 = `"Algebraic Stacks - Notes.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40869 strings out of 476017
- 833448 string characters out of 5793766
- 1891660 words of memory out of 5000000
- 60414 multiletter control sequences out of 15000+600000
- 527595 words of font info for 93 fonts, out of 8000000 for 9000
+ 35768 strings out of 476017
+ 707967 string characters out of 5793766
+ 1855660 words of memory out of 5000000
+ 55520 multiletter control sequences out of 15000+600000
+ 522890 words of font info for 76 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 101i,16n,104p,1672b,1381s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/stmaryrd/stmary8.pfb>
-Output written on "Infinity Categories - Notes.pdf" (34 pages, 424602 bytes).
+ 101i,6n,104p,600b,1338s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on "Algebraic Stacks - Notes.pdf" (2 pages, 115011 bytes).
 PDF statistics:
- 606 PDF objects out of 1000 (max. 8388607)
- 514 compressed objects within 6 object streams
- 213 named destinations out of 1000 (max. 500000)
- 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 92 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 37 words of extra memory for PDF output out of 10000 (max. 10000000)
 

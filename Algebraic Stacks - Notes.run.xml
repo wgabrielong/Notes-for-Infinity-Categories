@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>"Infinity Categories - Notes".bcf</file>
+      <file>"Algebraic Stacks - Notes".bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>"Infinity Categories - Notes".bbl</file>
+      <file>"Algebraic Stacks - Notes".bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -64,19 +64,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>"Infinity Categories - Notes"</infile>
+      <infile>"Algebraic Stacks - Notes"</infile>
     </cmdline>
     <input>
-      <file>"Infinity Categories - Notes".bcf</file>
+      <file>"Algebraic Stacks - Notes".bcf</file>
     </input>
     <output>
-      <file>"Infinity Categories - Notes".bbl</file>
+      <file>"Algebraic Stacks - Notes".bbl</file>
     </output>
     <provides type="dynamic">
-      <file>"Infinity Categories - Notes".bbl</file>
+      <file>"Algebraic Stacks - Notes".bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>"Infinity Categories - Notes".bcf</file>
+      <file>"Algebraic Stacks - Notes".bcf</file>
     </requires>
     <requires type="editable">
       <file>refs.bib</file>
