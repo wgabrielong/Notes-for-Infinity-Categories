@@ -6,4 +6,7 @@
 \contentsline {section}{\tocsection {}{5}{Lecture 5 -- 20th September 2023}}{16}{section.5}%
 \contentsline {section}{\tocsection {}{6}{Lecture 6 -- 2nd October 2023}}{21}{section.6}%
 \contentsline {section}{\tocsection {}{7}{Lecture 7 -- 4th October 2023}}{25}{section.7}%
-\contentsline {section}{\tocsection {}{}{References}}{28}{section*.3}%
+\contentsline {section}{\tocsection {}{8}{Lecture 8 -- 11th October 2023}}{27}{section.8}%
+\contentsline {section}{\tocsection {}{9}{Lecture 9 -- 16th October 2023}}{28}{section.9}%
+\contentsline {section}{\tocsection {}{10}{Lecture 10 -- 18th October 2023}}{29}{section.10}%
+\contentsline {section}{\tocsection {}{}{References}}{33}{section*.3}%

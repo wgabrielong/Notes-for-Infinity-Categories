@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  9 OCT 2023 19:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  20 OCT 2023 22:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1102,28 +1102,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 1339--1343
 
  []
 
-[24] [25] [26] [27] [28] 
+[24] [25] [26]
+Underfull \hbox (badness 10000) in paragraph at lines 1566--1569
+
+ []
+
+[27] [28]
+Underfull \hbox (badness 10000) in paragraph at lines 1661--1664
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1671--1674
+
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 1724--1729
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1724--1729
+
+ []
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 1748--1752
+
+ []
+
+[31] [32] [33] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./Infinity Categories - Notes.aux)
 Package rerunfilecheck Info: File `"Infinity Categories - Notes".out' has not changed.
-(rerunfilecheck)             Checksum: 3B24A55164C9C826D951E6CC02C3F97C;1806.
+(rerunfilecheck)             Checksum: 7644651834D688BA60146BF0690B3B46;2492.
 Package logreq Info: Writing requests to '"Infinity Categories - Notes".run.xml'.
 \openout1 = `"Infinity Categories - Notes.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39991 strings out of 476017
- 811677 string characters out of 5793766
+ 40540 strings out of 476017
+ 825185 string characters out of 5793766
  1891660 words of memory out of 5000000
- 59569 multiletter control sequences out of 15000+600000
+ 60091 multiletter control sequences out of 15000+600000
  527595 words of font info for 93 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  101i,16n,104p,1672b,1381s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/stmaryrd/stmary8.pfb>
-Output written on "Infinity Categories - Notes.pdf" (28 pages, 393981 bytes).
+Output written on "Infinity Categories - Notes.pdf" (33 pages, 418143 bytes).
 PDF statistics:
- 528 PDF objects out of 1000 (max. 8388607)
- 443 compressed objects within 5 object streams
- 180 named destinations out of 1000 (max. 500000)
- 85 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 595 PDF objects out of 1000 (max. 8388607)
+ 504 compressed objects within 6 object streams
+ 207 named destinations out of 1000 (max. 500000)
+ 109 words of extra memory for PDF output out of 10000 (max. 10000000)
 

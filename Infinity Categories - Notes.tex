@@ -763,7 +763,7 @@ One can check that the above definitions of the colimit agree, and that the coli
   is the cokernel of $A\to B$, that is $B/\mathrm{im}(A)$. 
 \end{example}
 \begin{example}
-  Let $I$ be the indexing category with no non-identity morphisms. THe colimit over $I$ is the coproduct. In $\Sets$ the coproduct is the disjoint union, in $\Grp$ the coproduct is the free product, and in $\AbGrp$ the coproduct is the direct sum. 
+  Let $I$ be the indexing category with no non-identity morphisms. The colimit over $I$ is the coproduct. In $\Sets$ the coproduct is the disjoint union, in $\Grp$ the coproduct is the free product, and in $\AbGrp$ the coproduct is the direct sum. 
 \end{example}
 One can in fact show the following theorem. 
 \begin{theorem}
@@ -882,7 +882,7 @@ Analogously for simplicial sets, we have the following definition.
 This is equivalent to the universal property that for all simplicial sets $Z$, $\Mor_{\SSets}(Z,X\times Y)=\Mor_{\SSets}(Z,X)\times\Mor_{\SSets}(Z,Y)$. We can thus compute the $n$-simplices of a the product of simplicial sets by 
 \begin{align*}
   (X\times Y)_{n} &= \Mor_{\SSets}(\Delta^{n},X\times Y)  \\
-  &= \Mor_{\SSets}(\Delta^{n},X)\times\Mor_{\SSets}(\delta^{n},Y) && \text{by universal property} \\
+  &= \Mor_{\SSets}(\Delta^{n},X)\times\Mor_{\SSets}(\Delta^{n},Y) && \text{by universal property} \\
   &= X_{n}\times Y_{n}. 
 \end{align*}
 \begin{example}
@@ -1252,7 +1252,7 @@ Given the definition of lifting, we can define lifting with respect to classes o
 \begin{remark}
   Equivalently, we say that $f$ has the left lifting property with respect to $\Acal$. 
 \end{remark}
-For any $\Acal$ a class of maps, the right complement $^{\lifts}\Acal$ is a weakly saturated class. This generalizes the case where $\Acal$ consists of the the map to the point, the terminal object in $\SSets$. 
+For any $\Acal$ a class of maps, the right complement $^{\lifts}\Acal$ is a weakly saturated class. This generalizes the case where $\Acal$ consists of the the map to the point, the final object in $\SSets$. 
 \begin{example}
   Let $\Acal$ be the inner anodyne maps. 
   $$% https://q.uiver.app/#q=WzAsNCxbMCwwLCJcXExhbWJkYV57bn1fe2t9Il0sWzAsMSwiXFxEZWx0YV57bn0iXSxbMiwwLCJYIl0sWzIsMSwiKiJdLFsyLDMsImciXSxbMCwxLCIiLDAseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJob29rIiwic2lkZSI6InRvcCJ9fX1dLFswLDJdLFsxLDNdLFsxLDIsIiIsMSx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dXQ==
@@ -1561,6 +1561,234 @@ where the dotted morphism is the product-pushout map from \Cref{def: product pus
 \begin{proof}
   
 \end{proof}
+\section{Lecture 8 -- 11th October 2023}
+% Revise preamble. 
+Recall that if $I\to J$ a morphism of simplicial sets and $\Csf$ a quasicategory, $\Csf^{J}\to\Csf^{I}$ is an inner fibration. From this, one can deduce Joyal's theorem by taking $I=\emptyset$ the initial object in $\SSets$ to see that $\Csf^{J}$ is a quasicategory. 
+\\\\
+Consider the composition of morphisms, $f:A\to B, g:B\to C$ in a category $\Csf$. In a simplicial set, we see this as a horn filling condition. That is, the horn $\Lambda^{2}_{1}$ admits a fill in the simplicial set. 
+$$% https://q.uiver.app/#q=WzAsNixbMCwxLCJBIl0sWzIsMSwiQyJdLFsxLDAsIkIiXSxbNCwwLCJcXExhbWJkYV57Mn1fezF9Il0sWzQsMSwiXFxEZWx0YV57Mn0iXSxbNiwwLCJcXENzZiJdLFswLDIsImYiXSxbMiwxLCJnIl0sWzMsNV0sWzMsNF0sWzQsNSwiXFxleGlzdHMiLDEseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XV0=
+\begin{tikzcd}
+	& B &&& {\Lambda^{2}_{1}} && \Csf \\
+	A && C && {\Delta^{2}}
+	\arrow["f", from=2-1, to=1-2]
+	\arrow["g", from=1-2, to=2-3]
+	\arrow[from=1-5, to=1-7]
+	\arrow[from=1-5, to=2-5]
+	\arrow["\exists"{description}, dashed, from=2-5, to=1-7]
+\end{tikzcd}$$
+As a corollary to Joyal's theorem \Cref{thm: Joyal on functor category of quasicategory and simplicial set}, we have the following. 
+\begin{corollary}
+  If $X$ is a quasicategory then $X^{\Delta^{2}}\to X^{\Lambda^{2}_{1}}$ has the right lifting property for all morphisms of simplicial sets. 
+\end{corollary}
+Put another way, for all monomorphisms of simplicial sets $Y\to Z$, the diagram 
+$$% https://q.uiver.app/#q=WzAsNCxbMiwwLCJYXntcXERlbHRhXnsyfX0iXSxbMiwxLCJYXntcXExhbWJkYV57Mn1fezF9fSJdLFswLDAsIlkiXSxbMCwxLCJaIl0sWzIsM10sWzAsMV0sWzIsMF0sWzMsMV0sWzMsMCwiXFxleGlzdHMiLDEseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XV0=
+\begin{tikzcd}
+	Y && {X^{\Delta^{2}}} \\
+	Z && {X^{\Lambda^{2}_{1}}}
+	\arrow[from=1-1, to=2-1]
+	\arrow[from=1-3, to=2-3]
+	\arrow[from=1-1, to=1-3]
+	\arrow[from=2-1, to=2-3]
+	\arrow["\exists"{description}, dashed, from=2-1, to=1-3]
+\end{tikzcd}$$
+admits a lift. 
+\begin{proof}
+  Suppose $Y\to Z$ is a monomorphism of simplicial sets and by functoriality and contravariance of simplicial sets to verify $\Fun(Y,X^{\Delta^{2}})=\Fun(Y\times\Delta^{2},X)=\Fun(\Delta^{2},X^{Y}), \Fun(Z,X^{\Lambda^{2}_{1}})=\Fun(Z\times\Lambda^{2}_{1},X)=\Fun(Z,X^{\Lambda^{2}_{1}})$ and it would suffice to show a lift of the following diagram. 
+  $$% https://q.uiver.app/#q=WzAsNCxbMCwwLCJcXExhbWJkYV57Mn1fezF9Il0sWzAsMSwiXFxEZWx0YV57Mn0iXSxbMiwwLCJYXntafSJdLFsyLDEsIlhee1l9Il0sWzEsM10sWzIsM10sWzAsMV0sWzAsMl0sWzEsMiwiPyIsMSx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dXQ==
+  \begin{tikzcd}
+    {\Lambda^{2}_{1}} && {X^{Z}} \\
+    {\Delta^{2}} && {X^{Y}}
+    \arrow[from=2-1, to=2-3]
+    \arrow[from=1-3, to=2-3]
+    \arrow[from=1-1, to=2-1]
+    \arrow[from=1-1, to=1-3]
+    \arrow["{?}"{description}, dashed, from=2-1, to=1-3]
+  \end{tikzcd}$$
+  Note that in the above, $X^{Z}\to X^{Y}$ is an inner fibration by Joyal's theorem, \Cref{thm: Joyal on functor category of quasicategory and simplicial set}. We can rewrite this lifting this problem as the following 
+
+
+\end{proof}
+\section{Lecture 9 -- 16th October 2023}
+Recall that in the analogue of universal properties in the setting of quasicategories are isolating them as members of acyclic Kan complexes. Let us recall the definition. 
+\begin{definition}[Acyclic Kan Fibration]
+  ????
+\end{definition}
+These will be the formulations to construct limits and colimits in the setting of quasicategories. Let us recall the definition of colimits. 
+\begin{definition}[Cone, Cf. \Cref{def: colimit cone}]\label{def: cone v2}
+  Let $\Csf$ be a category and $F:I\to\Csf$ be a functor. Let $I_{+}=I\sqcup\{\infty\}$ where $\Mor_{I_{+}}(-,\infty)=\{*\}$. A cone on $F$ is a functor extending $F:I\to \Csf$ to $\overline{F}:I_{+}\to\Csf$. 
+\end{definition}
+This allows us to define colimits as follows. 
+\begin{definition}[Colimit]
+  Following the notation of \Cref{def: cone v2}, the colimit of $F:I\to \Csf$ is $\overline{F}(\infty)$. 
+\end{definition}
+We seek to generalize the notion of cones and related notions to the setting of quasicategories. We do this via joins and slices in an analogous way to constructing $I_{+}$. 
+\begin{definition}[Joins]
+  Let $\Csf,\Dsf$ be categories. We define the join $\Csf\star\Dsf$ as the category whose objects $\Obj(\Csf\star\Dsf)=\Obj(\Csf)\sqcup\Obj(\Dsf)$ and whose morphisms are given by the following:
+  $$\Mor_{\Csf\star\Dsf}(A,B)=\begin{cases}
+    \Mor_{\Csf}(A,B) & A,B\in\Obj(\Csf) \\
+    \Mor_{\Dsf}(A,B) & A,B\in\Obj(\Dsf) \\
+    \{*\} & A\in\Obj(\Csf), B\in\Obj(\Dsf) \\
+    \emptyset & A\in\Obj(\Dsf), B\in\Obj(\Csf).
+  \end{cases}$$
+\end{definition}
+We can consider the nerves of these categories to verify 
+\begin{align*}
+  (\Csf\star\Dsf)_{0} &= (\Csf)_{0}\sqcup (\Dsf)_{0} \\
+  (\Csf\star\Dsf)_{1} &= (\Csf)_{1} \sqcup (\Csf\times\Dsf)_{0} \sqcup (\Dsf)_{1}. 
+\end{align*}
+We want to consider this in terms of simplicial sets. In $\DDelta$ take $[-1]=\emptyset$ to be initial and we can define a binary operation $\sqcup$ on simplicial sets by extending total orders on both. 
+\begin{example}
+  $[2]\sqcup[3]$ is $0\leq 1\leq 2\leq 0'\leq 1'\leq 2'\leq 3'$, that is, $[6]$. More generally, $[m]\sqcup [n]=[m+n+1]$. 
+\end{example}
+This allows us to define joins on simplicial sets. 
+\begin{definition}[Joins of Simplicial Sets]
+  Let $X,Y$ be simplicial sets. Their join $X\star Y$ is given by the nerves at each level by taking $(X\star Y)_{0}=X_{0}\sqcup Y_{0}$ and inducting by 
+  $$(X\star Y)_{n}=\bigsqcup_{[n]=[n_{1}]\sqcup[n_{2}]}X_{n_{1}}\times Y_{n_{2}}.$$
+\end{definition}
+We would desire that these respect maps $[n]\to[m]$ in $\DDelta$. That is, for $[n]\to[m]$ a map in $\DDelta$, that there is a map of simplicial sets $(X\star Y)_{m}\to (X\star Y)_{n}$. This is made possbile by the following lemma. 
+\begin{lemma}
+  Given order-preserving maps $f:[n]\to[m_{1}]\sqcup [m_{2}]$, there are $k_{1},k_{2}$ such that $k_{1}+k_{2}+1=n$, $f_{i}:[k_{i}]\to[m_{i}]$ order-preserving maps for $i\in\{1,2\}$ such that $f$ decomposes as $f=f_{1}\sqcup f_{2}$. 
+\end{lemma}
+We omit the proof. 
+\begin{example}
+  For $f:[5]\to[2]\sqcup [3]$ by $\langle 0,2,0',1',2',3'\rangle$ we can decompose $f=f_{1}\sqcup f_{2}$ where $f_{1}:[1]\to[2]$ by $\langle 0,2\rangle$ and $f_{2}:[2]\to[3]$ by $\langle 0,1,2,3\rangle$. 
+\end{example}
+Since joins of simplicial sets are functorial, we have shown the following. 
+\begin{proposition}
+  If $X,Y$ are quasicategories then $X\star Y$ is a quasicategory. 
+\end{proposition}
+\section{Lecture 10 -- 18th October 2023}
+When working in a category, as opposed to working in a set, we seek to formulate things as maps between objects instead of going inside objects themselves. We will try to work towards a discussion of limits, colimits, and cones in quasicategories by embodying this ethos. 
+\\\\
+Let $\Csf$ be a category and $C\in\Obj(\Csf)$. We can define the overcategory of $C\in\Obj(\Csf)$ which we denote as $\Csf_{(-/C)}$ whose objects are $\{A\to C\}$ and whose morphisms $\Mor_{\Csf_{(-/C)}}((A\to C), (B\to C))$ are commuting triangles as follows.
+$$% https://q.uiver.app/#q=WzAsMyxbMCwwLCJBIl0sWzIsMCwiQiJdLFsxLDEsIkMiXSxbMCwxXSxbMSwyXSxbMCwyXV0=
+\begin{tikzcd}
+	A && B \\
+	& C
+	\arrow[from=1-1, to=1-3]
+	\arrow[from=1-3, to=2-2]
+	\arrow[from=1-1, to=2-2]
+\end{tikzcd}$$
+We often surpress notation and write $\Mor_{\Csf_{(-/C)}}(A,B)$ where the maps to $C$ in the category $\Csf$ are taken to be implicit. One develops the notion of an undercategory in an analogous way. \\\\
+More generally for $I$ and indexing category and $F:I\to \Csf$ a functor, we can consider the overcategory and undercategory of a diagram $I$ in $\Csf$. More precisely, we have the following definitions. 
+\begin{definition}[Overcategory]
+  Let $I$ be an indexing category, $\Csf$ a category, and $F:I\to \Csf$ a functor. The overcategory of the diagram $\Csf_{(-/F)}$ consists of objects of $\Csf$ admitting a morphism to each vertex of the diagram $F(I)$ and whose morphisms are those between those objects over the diagram $F(I)$ such that the morphisms to the diagram commute. 
+\end{definition}
+\begin{definition}[Undercategory]
+  Let $I$ be an indexing category, $\Csf$ a category, and $F:I\to \Csf$ a functor. The undercategory of the diagram $\Csf_{(F/-)}$ consists of objects of $\Csf$ admitting a morphism from each vertex of the diagram $F(I)$ and whose morphisms are those between those objects under the diagram $F(I)$ such that the morphisms from the diagram commute. 
+\end{definition}
+We can use these notions to define limits and colimits. 
+\begin{definition}[Limit]
+  Let $I$ be an indexing category, $\Csf$ a category, and $F:I\to \Csf$ a functor. The limit over the diagram indexed by $I$ is the final object in the overcategory $\Csf_{(-/F)}$.
+\end{definition}
+\begin{definition}[Colimit]
+  Let $I$ be an indexing category, $\Csf$ a category, and $F:I\to \Csf$ a functor. The colimit over the diagram indexed by $I$ is the initial object in the undercategory $\Csf_{(F/-)}$. 
+\end{definition}
+We want to generalize this to simplicial sets. We can follow the setup of our previous discussion and take $I$ to be the 0-simplex $\Delta^{0}$. Indeed for $F:I\to X$ where $X$ is a simplicial set, we can analogously the simplicial sets $X_{(F/-)}, X_{(-/F)}$. For $J$ another simplicial set and $J\to X_{(F/-)}$ to the undercategory we have a commutative diagram
+$$% https://q.uiver.app/#q=WzAsMyxbMCwwLCJJIl0sWzIsMCwiWCJdLFswLDEsIklcXHN0YXIgSiJdLFsyLDEsIiIsMix7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFswLDFdLFswLDJdXQ==
+\begin{tikzcd}
+	I && X \\
+	{I\star J}
+	\arrow[dashed, from=2-1, to=1-3]
+	\arrow[from=1-1, to=1-3]
+	\arrow[from=1-1, to=2-1]
+\end{tikzcd}$$
+where the diagram $J$ in the undercategory has the property that maps from $X_{(F/-)}$ are compatible with the maps in the $J$-indexed diagram in the undercategory. Dually, one defines maps to the overcategory $J\to X_{(-/F)}$ with the following commutative diagram. 
+$$% https://q.uiver.app/#q=WzAsMyxbMCwwLCJJIl0sWzIsMCwiWCJdLFswLDEsIkpcXHN0YXIgSSJdLFsyLDEsIiIsMix7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFswLDFdLFswLDJdXQ==
+\begin{tikzcd}
+	I && X \\
+	{J\star I}
+	\arrow[dashed, from=2-1, to=1-3]
+	\arrow[from=1-1, to=1-3]
+	\arrow[from=1-1, to=2-1]
+\end{tikzcd}$$ 
+This gives the following adjoint pairs. 
+$$% https://q.uiver.app/#q=WzAsNCxbMCwwLCJcXFNTZXRzIl0sWzMsMCwiXFxTU2V0c197KEYvLSl9Il0sWzAsMiwiXFxTU2V0cyJdLFszLDIsIlxcU1NldHNfeygtL0YpfSJdLFswLDEsIigtKV97KEYvLSl9IiwwLHsib2Zmc2V0IjotMX1dLFsxLDAsIklcXHN0YXIoLSkiLDAseyJvZmZzZXQiOi0xfV0sWzIsMywiKC0pX3soLS9GKX0iLDAseyJvZmZzZXQiOi0xfV0sWzMsMiwiKC0pXFxzdGFyIEkiLDAseyJvZmZzZXQiOi0xfV1d
+\begin{tikzcd}
+	\SSets &&& {\SSets_{(F/-)}} \\
+	\\
+	\SSets &&& {\SSets_{(-/F)}}
+	\arrow["{(-)_{(F/-)}}", shift left, from=1-1, to=1-4]
+	\arrow["{I\star(-)}", shift left, from=1-4, to=1-1]
+	\arrow["{(-)_{(-/F)}}", shift left, from=3-1, to=3-4]
+	\arrow["{(-)\star I}", shift left, from=3-4, to=3-1]
+\end{tikzcd}$$
+Returning to our discussion of ordinary category, we can think of an object $C$ in a category as a map $I=\Delta^{0}\to\Csf$. We can do our overcategory and undercategory constructions to see that a map in the overcategory $\Csf_{(-/C)}$ is given by 
+$$% https://q.uiver.app/#q=WzAsMyxbMCwwLCJcXERlbHRhXnswfVxcc3RhciBJIl0sWzAsMSwiSSJdLFsyLDAsIlxcQ3NmIl0sWzAsMl0sWzEsMF0sWzEsMl1d
+\begin{tikzcd}
+	{\Delta^{0}\star I} && \Csf \\
+	I
+	\arrow[from=1-1, to=1-3]
+	\arrow[from=2-1, to=1-1]
+	\arrow[from=2-1, to=1-3]
+\end{tikzcd}$$
+that is, a morphism with image $C$. The construction for the undercategory is formally dual. 
+\\\\
+Recall the definition of the final object \Cref{def:final object}. Using the language of representable functors, this is the object which represents the functor to the one point set. How do we define the terminal object without reference to objects? \\\\
+Let $Z\in\Obj(\Csf)$ and consider the overcategory $\Csf_{(-/Z)}$. We have a forgetful functor $\Csf_{(-/Z)}\to\Csf$ taking $(X\to Z)\mapsto X$. This forgetful functor can be thought of as a bifunctor by letting $F:I\to\Csf$ be the inclusion of $Z$ into the category $\Csf$ and taking the functor $\Csf_{(-/Z)}\to\Csf$ as a bifunctor $\Csf\star I\to \Csf$. For $F$ as above and $G:J\to I$ we have $F\circ G:J\to\Csf$. Recall that the data of a map $A\to\Csf_{(-/I)}$ is the data of a commutative diagram as below.  
+$$% https://q.uiver.app/#q=WzAsMyxbMCwwLCJJIl0sWzIsMCwiXFxDc2YiXSxbMCwxLCJBXFxzdGFyIEkiXSxbMCwyXSxbMiwxLCJcXGV4aXN0cyIsMSx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFswLDFdXQ==
+\begin{tikzcd}
+	I && \Csf \\
+	{A\star I}
+	\arrow[from=1-1, to=2-1]
+	\arrow["\exists"{description}, dashed, from=2-1, to=1-3]
+	\arrow[from=1-1, to=1-3]
+\end{tikzcd}$$
+So given functors $F,G$ we have a commutative diagram 
+$$% https://q.uiver.app/#q=WzAsNSxbMCwxLCJKIl0sWzIsMSwiSSJdLFswLDAsIkFcXHN0YXIgSiJdLFsyLDAsIkFcXHN0YXIgSSJdLFs0LDAsIlxcQ3NmIl0sWzIsMywiXFxpZF97QX1cXHN0YXIgRyJdLFszLDRdLFsxLDQsIkYiLDJdLFsxLDNdLFswLDJdLFswLDEsIkciLDJdXQ==
+\begin{tikzcd}
+	{A\star J} && {A\star I} && \Csf \\
+	J && I
+	\arrow["{\id_{A}\star G}", from=1-1, to=1-3]
+	\arrow[from=1-3, to=1-5]
+	\arrow["F"', from=2-3, to=1-5]
+	\arrow[from=2-3, to=1-3]
+	\arrow[from=2-1, to=1-1]
+	\arrow["G"', from=2-1, to=2-3]
+\end{tikzcd}$$
+and there is a functor $\Csf_{(-/F)}\to\Csf_{(-/F\circ G)}$ induced by $G$. Now suppose $H:\Csf\to\Dsf$ is a functor. We can similarly compose to yield a functor $F\circ H:I\to\Dsf$ inducing a functor $\Csf_{(-/F)}\to\Dsf_{(-/H\circ F)}$. 
+\\\\
+Recall that $\emptyset$ is the initial object in the category $\Sets$ so we have 
+$$% https://q.uiver.app/#q=WzAsMyxbMCwwLCJcXGVtcHR5c2V0Il0sWzIsMCwiSSJdLFs0LDAsIlxcQ3NmIl0sWzAsMV0sWzEsMiwiRiJdXQ==
+\begin{tikzcd}
+	\emptyset && I && \Csf
+	\arrow[from=1-1, to=1-3]
+	\arrow["F", from=1-3, to=1-5]
+\end{tikzcd}$$
+and consequently for any $\Dsf\to\Csf$, a functor $\Dsf\to\Csf_{(-/\emptyset)}$. In particular, we can take $\Dsf=\Csf$ to yield a functor $\Csf\to\Csf_{(-/\emptyset)}$ which is an equivalence of categories by the adjunction. 
+% Maybe add more details here. 
+This allows us to redefine initial and final objects of categories in terms of over and undercategories. 
+\begin{definition}[Categorical Initial Object]
+  Let $\Csf$ be a category. $Z\in\Obj(\Csf)$ is an initial object if and only if $\Csf_{(-/Z)}\to\Csf$ is an equivalence of categories.  
+\end{definition}
+\begin{definition}[Categorical Final Object]
+  Let $\Csf$ be a category. $Z\in\Obj(\Csf)$ is a final object if and only if $\Csf_{(-/Z)}\to\Csf$ is an equivalence of categories. 
+\end{definition}
+This immediately generalizes to the setting of quasicategories. 
+\begin{definition}[Quasicategorical Initial Object]\label{def: initial object quasicategory}
+  Let $X$ be a quasicategory. A 0-simplex $x\in X_{0}$ is an initial object if $X_{(x/-)}\to X$ is an acyclic Kan fibration. 
+\end{definition}
+\begin{definition}[Quasicategorical Final Object]\label{def: final object quasicategory}
+  Let $X$ be a quasicategory. A 0-simplex $x\in X_{0}$ is a final object if $X_{(-/x)}\to X$ is an acyclic Kan fibration. 
+\end{definition}
+Let us take the dual view and focus on initial objects. 
+\begin{proposition}
+  Let $X$ be a simplicial set and $x\in X_{0}$. If every factorization problem 
+  $$% https://q.uiver.app/#q=WzAsNSxbMCwwLCJcXERlbHRhXnswfSJdLFsxLDEsIlgiXSxbMCwxLCJcXHBhcnRpYWxcXERlbHRhXntufSJdLFswLDNdLFswLDIsIlxcRGVsdGFee259Il0sWzAsMSwieCJdLFswLDJdLFsyLDRdLFsyLDFdLFs0LDEsIj8iLDEseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XV0=
+  \begin{tikzcd}
+    {\Delta^{0}} \\
+    {\partial\Delta^{n}} & X \\
+    {\Delta^{n}} \\
+    {}
+    \arrow["x", from=1-1, to=2-2]
+    \arrow[from=1-1, to=2-1]
+    \arrow[from=2-1, to=3-1]
+    \arrow[from=2-1, to=2-2]
+    \arrow["{?}"{description}, dashed, from=3-1, to=2-2]
+  \end{tikzcd}$$
+  admits a solution for $n\geq 1$, then $x$ is initial. 
+\end{proposition}
+
 \newpage
 \printbibliography
 \end{document}
