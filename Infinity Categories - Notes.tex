@@ -591,14 +591,14 @@ by forcing the natural transformations to agree as one would expect.
   $h\Cat_{1}$ is the category whose objects are categories and whose morphisms are functors modulo isomorphic natural transformations. 
 \end{remark}
 This would imply that in $h\Cat_{1}$ the morphisms are isomorphisms of categories in some appropriate sense. We will characterize isomorphisms of categories using fullness, faithfullness, and essential surjectivity which we now define. 
-\begin{definition}[Full Functor]\label{def: full functor}
+\begin{definition}[Full Functor]
   A functor $F:\Csf\to\Dsf$ is full if for all $A,B\in\Obj(\Csf)$ the map of sets $\Mor_{\Csf}(A,B)\to\Mor_{\Dsf}(F(A),F(B))$ is surjective.
 \end{definition}
-\begin{definition}[Faithful Functor]\label{def: faithful functor}
+\begin{definition}[Faithful Functor]
   A functor $F:\Csf\to\Dsf$ is faithful if for all $A,B\in\Obj(\Csf)$ the map of sets $\Mor_{\Csf}(A,B)\to\Mor_{\Dsf}(F(A),F(B))$ is injective. 
 \end{definition}
 Naturally, one defines a fully faithful functor as follows. 
-\begin{definition}[Fully Faithful Functor]\label{def: fully faithful functor}
+\begin{definition}[Fully Faithful Functor]
   A functor $F:\Csf\to\Dsf$ is fully faithful if it is full and faithful, that is for all $A,B\in\Obj(\Csf)$ the map of sets $\Mor_{\Csf}(A,B)\to\Mor_{\Dsf}(F(A),F(B))$ is a bijection. 
 \end{definition}
 We now define essential surjectivity as follows. 
@@ -1778,7 +1778,8 @@ Let us take the dual view and focus on initial objects.
   \begin{tikzcd}
     {\Delta^{0}} \\
     {\partial\Delta^{n}} & X \\
-    {\Delta^{n}} 
+    {\Delta^{n}} \\
+    {}
     \arrow["x", from=1-1, to=2-2]
     \arrow[from=1-1, to=2-1]
     \arrow[from=2-1, to=3-1]
@@ -1787,106 +1788,6 @@ Let us take the dual view and focus on initial objects.
   \end{tikzcd}$$
   admits a solution for $n\geq 1$, then $x$ is initial. 
 \end{proposition}
-\begin{example}
-  Suppose $n=1$ and suppose we have a solid diagram $\partial\Delta^{1}\to X$. 
-  $$% https://q.uiver.app/#q=WzAsNCxbMCwwLCJcXERlbHRhXnswfSJdLFswLDEsIlxccGFydGlhbFxcRGVsdGFeezF9Il0sWzEsMSwiWCJdLFswLDIsIlxcRGVsdGFeezF9Il0sWzAsMV0sWzAsMiwieCJdLFsxLDIsIih4LHkpIiwyLHsibGFiZWxfcG9zaXRpb24iOjMwfV0sWzMsMiwiIiwyLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzEsM11d
-  \begin{tikzcd}
-    {\Delta^{0}} \\
-    {\partial\Delta^{1}} & X \\
-    {\Delta^{1}}
-    \arrow[from=1-1, to=2-1]
-    \arrow["x", from=1-1, to=2-2]
-    \arrow["{(x,y)}"'{pos=0.3}, from=2-1, to=2-2]
-    \arrow[dashed, from=3-1, to=2-2]
-    \arrow[from=2-1, to=3-1]
-  \end{tikzcd}$$
-  A solution to the factorization problem is a morphism $x\to y$. 
-\end{example}
-\begin{proof}
-  If $x\in X_{0}$ is initial then we have a diagram 
-  $$% https://q.uiver.app/#q=WzAsNCxbMCwwLCJcXHBhcnRpYWxcXERlbHRhXnttfSJdLFswLDEsIlxcRGVsdGFee219Il0sWzIsMCwiWF97KHgvLSl9Il0sWzIsMSwiWCJdLFswLDJdLFswLDFdLFsxLDNdLFsyLDNdLFsxLDIsIlxcZXhpc3RzIiwxLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV1d
-  \begin{tikzcd}
-    {\partial\Delta^{m}} && {X_{(x/-)}} \\
-    {\Delta^{m}} && X
-    \arrow[from=1-1, to=1-3]
-    \arrow[from=1-1, to=2-1]
-    \arrow[from=2-1, to=2-3]
-    \arrow[from=1-3, to=2-3]
-    \arrow["\exists"{description}, dashed, from=2-1, to=1-3]
-  \end{tikzcd}$$
-  for $m\geq 0$. This yields a diagram 
-  $$% https://q.uiver.app/#q=WzAsNixbMiwwLCJcXERlbHRhXnswfSJdLFsyLDEsIlxcRGVsdGFeezB9XFxzdGFyXFxwYXJ0aWFsXFxEZWx0YV57bX0iXSxbNCwxLCJYIl0sWzIsMiwiXFxEZWx0YV57MH1cXHN0YXJcXERlbHRhXnttfSJdLFswLDMsIlxcZW1wdHlzZXRcXHN0YXJcXERlbHRhXnttfSJdLFswLDEsIlxcZW1wdHlzZXRcXHN0YXJcXHBhcnRpYWxcXERlbHRhXnttfSJdLFsxLDNdLFszLDIsIiIsMSx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFswLDFdLFswLDIsIngiXSxbMSwyXSxbNCwyLCIiLDEseyJjdXJ2ZSI6M31dLFs1LDRdLFs1LDFdLFs0LDNdXQ==
-  \begin{tikzcd}
-    && {\Delta^{0}} \\
-    {\emptyset\star\partial\Delta^{m}} && {\Delta^{0}\star\partial\Delta^{m}} && X \\
-    && {\Delta^{0}\star\Delta^{m}} \\
-    {\emptyset\star\Delta^{m}}
-    \arrow[from=2-3, to=3-3]
-    \arrow[dashed, from=3-3, to=2-5]
-    \arrow[from=1-3, to=2-3]
-    \arrow["x", from=1-3, to=2-5]
-    \arrow[from=2-3, to=2-5]
-    \arrow[curve={height=24pt}, from=4-1, to=2-5]
-    \arrow[from=2-1, to=4-1]
-    \arrow[from=2-1, to=2-3]
-    \arrow[from=4-1, to=3-3]
-  \end{tikzcd}$$
-  where the dotted map is the product-pushout of the commutative quadrilateral on the bottom left. More explicitly, the following   
-  $$% https://q.uiver.app/#q=WzAsNSxbMCwwLCJcXGVtcHR5c2V0XFxzdGFyXFxwYXJ0aWFsXFxEZWx0YV57bX0iXSxbMCwxLCJcXGVtcHR5c2V0XFxzdGFyXFxEZWx0YV57bX0iXSxbMiwwLCJcXERlbHRhXnswfVxcc3RhclxccGFydGlhbFxcRGVsdGFee219Il0sWzIsMSwiXFxEZWx0YV57MH1cXHN0YXJcXERlbHRhXnttfSJdLFszLDIsIlgiXSxbMiw0LCIiLDEseyJjdXJ2ZSI6LTJ9XSxbMSw0LCIiLDEseyJjdXJ2ZSI6Mn1dLFsyLDNdLFsxLDNdLFswLDJdLFswLDFdLFszLDQsIiIsMSx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dXQ==
-  \begin{tikzcd}
-    {\emptyset\star\partial\Delta^{m}} && {\Delta^{0}\star\partial\Delta^{m}} \\
-    {\emptyset\star\Delta^{m}} && {\Delta^{0}\star\Delta^{m}} \\
-    &&& X
-    \arrow[curve={height=-12pt}, from=1-3, to=3-4]
-    \arrow[curve={height=12pt}, from=2-1, to=3-4]
-    \arrow[from=1-3, to=2-3]
-    \arrow[from=2-1, to=2-3]
-    \arrow[from=1-1, to=1-3]
-    \arrow[from=1-1, to=2-1]
-    \arrow[dashed, from=2-3, to=3-4]
-  \end{tikzcd}$$
-  where $\Delta^{0}\star\partial\Delta^{m}=\Lambda^{m+1}_{0}$ and we have a horn-filling diagram 
-  $$% https://q.uiver.app/#q=WzAsNCxbMCwwLCJcXHBhcnRpYWxcXERlbHRhXnttfSJdLFsyLDAsIlxcTGFtYmRhXnttKzF9X3swfSJdLFswLDEsIlxcRGVsdGFee219Il0sWzIsMSwiXFxwYXJ0aWFsXFxEZWx0YV57bSsxfSJdLFsxLDNdLFswLDFdLFswLDJdLFsyLDNdXQ==
-  \begin{tikzcd}
-    {\partial\Delta^{m}} && {\Lambda^{m+1}_{0}} \\
-    {\Delta^{m}} && {\partial\Delta^{m+1}}
-    \arrow[from=1-3, to=2-3]
-    \arrow[from=1-1, to=1-3]
-    \arrow[from=1-1, to=2-1]
-    \arrow[from=2-1, to=2-3]
-  \end{tikzcd}$$
-  which extends to the following. 
-  $$% https://q.uiver.app/#q=WzAsNixbMCwxLCJcXHBhcnRpYWxcXERlbHRhXnttKzF9Il0sWzIsMSwiXFxlbXB0eXNldFxcc3RhclxcRGVsdGFee219XFxjdXBfe1xcZW1wdHlzZXRcXHN0YXJcXHBhcnRpYWxcXERlbHRhXnttfX1cXERlbHRhXnswfVxcc3RhclxccGFydGlhbFxcRGVsdGFee219Il0sWzAsMiwiXFxwYXJ0aWFsXFxEZWx0YV57bSsxfSJdLFsyLDIsIlxcRGVsdGFeezB9XFxzdGFyXFxEZWx0YV57bX0iXSxbNCwxLCJYIl0sWzAsMCwiXFxEZWx0YV57MH0iXSxbNSw0LCJ4IiwwLHsiY3VydmUiOi0yfV0sWzUsMF0sWzAsMl0sWzIsM10sWzAsMSwiXFxzaW0iXSxbMSwzXSxbMSw0XSxbMyw0XV0=
-  \begin{tikzcd}
-    {\Delta^{0}} \\
-    {\partial\Delta^{m+1}} && {\emptyset\star\Delta^{m}\cup_{\emptyset\star\partial\Delta^{m}}\Delta^{0}\star\partial\Delta^{m}} && X \\
-    {\partial\Delta^{m+1}} && {\Delta^{0}\star\Delta^{m}}
-    \arrow["x", curve={height=-12pt}, from=1-1, to=2-5]
-    \arrow[from=1-1, to=2-1]
-    \arrow[from=2-1, to=3-1]
-    \arrow[from=3-1, to=3-3]
-    \arrow["\sim", from=2-1, to=2-3]
-    \arrow[from=2-3, to=3-3]
-    \arrow[from=2-3, to=2-5]
-    \arrow[from=3-3, to=2-5]
-  \end{tikzcd}$$
-  showing that the map factors through the complete simplex. 
-\end{proof}
-We can also show the following. 
-\begin{proposition}
-  Let $X$ is a quasicategory and $F:I\to X$ a functor. If $X_{(F/-)}\to X$ is a left fibration (resp. $X_{(-/F)}\to X$ a right fibration) then $X_{(F/-)}$ (resp. $X_{(-/F)}$) is a quasicategory. 
-\end{proposition}
-Let us turn to limits and colimits in the setting of quasicategories. 
-\begin{definition}[Quasicategorical Limit]
-  Let $X$ be a quasicategory and $F:I\to X$ a functor. The limit of the diagram indexed by $I$ is the terminal object in the overquasicategory $X_{(-/F)}$. 
-\end{definition}
-\begin{definition}[Quasicategorical Colimit]
-  Let $X$ be a quasicategory and $F:I\to X$ a functor. The colimit of the diagram indexed by $I$ is the initial object in the underquasicategory $X_{(F/-)}$. 
-\end{definition}
-Let us now define fullness (cf. \Cref{def: full functor}) in the setting of quasicategories. 
-\begin{definition}[Full Subquasicategory]
-  Let $X_{S}$ is a full subquasicategory of $X$ where $\Delta^{n}\to X$ if and only if the 0-simplicies of $\Delta^{n}$ lie in $S$, that is $(\Delta^{n})_{0}\in S$ where $S\subseteq X_{0}$. 
-\end{definition}
 
 \newpage
 \printbibliography
