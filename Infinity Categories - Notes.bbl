@@ -1,0 +1,124 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{kerodon}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=760ea879284b1a6eeaad87a82be8d1d7}{%
+           family={Lurie},
+           familyi={L\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{760ea879284b1a6eeaad87a82be8d1d7}
+      \strng{fullhash}{760ea879284b1a6eeaad87a82be8d1d7}
+      \strng{bibnamehash}{760ea879284b1a6eeaad87a82be8d1d7}
+      \strng{authorbibnamehash}{760ea879284b1a6eeaad87a82be8d1d7}
+      \strng{authornamehash}{760ea879284b1a6eeaad87a82be8d1d7}
+      \strng{authorfullhash}{760ea879284b1a6eeaad87a82be8d1d7}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://kerodon.net}}
+      \field{title}{Kerodon}
+      \field{year}{2023}
+    \endentry
+    \entry{Rezk}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=71cc51e3c0ac090026d1e96750933ae0}{%
+           family={Rezk},
+           familyi={R\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{71cc51e3c0ac090026d1e96750933ae0}
+      \strng{fullhash}{71cc51e3c0ac090026d1e96750933ae0}
+      \strng{bibnamehash}{71cc51e3c0ac090026d1e96750933ae0}
+      \strng{authorbibnamehash}{71cc51e3c0ac090026d1e96750933ae0}
+      \strng{authornamehash}{71cc51e3c0ac090026d1e96750933ae0}
+      \strng{authorfullhash}{71cc51e3c0ac090026d1e96750933ae0}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to Quasicategories}
+      \verb{urlraw}
+      \verb https://people.math.rochester.edu/faculty/doug/otherpapers/Rezk-quasicats-intro.pdf
+      \endverb
+      \verb{url}
+      \verb https://people.math.rochester.edu/faculty/doug/otherpapers/Rezk-quasicats-intro.pdf
+      \endverb
+    \endentry
+    \entry{Riehl}{book}{}
+      \name{author}{1}{}{%
+        {{hash=45a94503b2898b54c4e429a46414d3ad}{%
+           family={Riehl},
+           familyi={R\bibinitperiod},
+           given={Emily},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Mineola, NY: Dover Publications}%
+      }
+      \strng{namehash}{45a94503b2898b54c4e429a46414d3ad}
+      \strng{fullhash}{45a94503b2898b54c4e429a46414d3ad}
+      \strng{bibnamehash}{45a94503b2898b54c4e429a46414d3ad}
+      \strng{authorbibnamehash}{45a94503b2898b54c4e429a46414d3ad}
+      \strng{authornamehash}{45a94503b2898b54c4e429a46414d3ad}
+      \strng{authorfullhash}{45a94503b2898b54c4e429a46414d3ad}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-486-80903-8}
+      \field{title}{Category theory in context}
+      \field{year}{2016}
+      \keyw{18-01,18A05,18A15,01A75}
+    \endentry
+    \entry{stacks-project}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a3dbcb9991f2a884f2c608ad2335af9f}{%
+           family={{Stacks project authors}},
+           familyi={S\bibinitperiod},
+           given={The},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3dbcb9991f2a884f2c608ad2335af9f}
+      \strng{fullhash}{a3dbcb9991f2a884f2c608ad2335af9f}
+      \strng{bibnamehash}{a3dbcb9991f2a884f2c608ad2335af9f}
+      \strng{authorbibnamehash}{a3dbcb9991f2a884f2c608ad2335af9f}
+      \strng{authornamehash}{a3dbcb9991f2a884f2c608ad2335af9f}
+      \strng{authorfullhash}{a3dbcb9991f2a884f2c608ad2335af9f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://stacks.math.columbia.edu}}
+      \field{title}{The Stacks project}
+      \field{year}{2023}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
