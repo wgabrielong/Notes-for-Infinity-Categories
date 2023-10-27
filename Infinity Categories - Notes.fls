@@ -1159,6 +1159,39 @@ INPUT c:/texlive/2023/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
 INPUT ./Infinity Categories - Notes.aux
 INPUT Infinity Categories - Notes.aux
 INPUT Infinity Categories - Notes.aux
+INPUT ./Lecture 1.aux
+INPUT Lecture 1.aux
+INPUT Lecture 1.aux
+INPUT ./Lecture 2.aux
+INPUT Lecture 2.aux
+INPUT Lecture 2.aux
+INPUT ./Lecture 3.aux
+INPUT Lecture 3.aux
+INPUT Lecture 3.aux
+INPUT ./Lecture 4.aux
+INPUT Lecture 4.aux
+INPUT Lecture 4.aux
+INPUT ./Lecture 5.aux
+INPUT Lecture 5.aux
+INPUT Lecture 5.aux
+INPUT ./Lecture 6.aux
+INPUT Lecture 6.aux
+INPUT Lecture 6.aux
+INPUT ./Lecture 7.aux
+INPUT Lecture 7.aux
+INPUT Lecture 7.aux
+INPUT ./Lecture 8.aux
+INPUT Lecture 8.aux
+INPUT Lecture 8.aux
+INPUT ./Lecture 9.aux
+INPUT Lecture 9.aux
+INPUT Lecture 9.aux
+INPUT ./Lecture 10.aux
+INPUT Lecture 10.aux
+INPUT Lecture 10.aux
+INPUT ./Lecture 11.aux
+INPUT Lecture 11.aux
+INPUT Lecture 11.aux
 OUTPUT Infinity Categories - Notes.aux
 INPUT c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
@@ -1258,13 +1291,123 @@ INPUT ./Infinity Categories - Notes.toc
 INPUT Infinity Categories - Notes.toc
 INPUT Infinity Categories - Notes.toc
 OUTPUT Infinity Categories - Notes.toc
+INPUT ./Lecture 1.tex
+INPUT ./Lecture 1.tex
+INPUT ./Lecture 1.tex
+INPUT c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+OUTPUT Lecture 1.aux
+INPUT ./Lecture 1.tex
+INPUT ./Lecture 1.tex
+INPUT ./Lecture 1.tex
+INPUT Lecture 1.tex
+INPUT ./Lecture 1.tex
+INPUT Lecture 1.tex
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
-INPUT c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT ./Lecture 2.tex
+INPUT ./Lecture 2.tex
+INPUT ./Lecture 2.tex
+OUTPUT Lecture 2.aux
+INPUT ./Lecture 2.tex
+INPUT ./Lecture 2.tex
+INPUT ./Lecture 2.tex
+INPUT Lecture 2.tex
+INPUT ./Lecture 2.tex
+INPUT Lecture 2.tex
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+INPUT ./Lecture 3.tex
+INPUT ./Lecture 3.tex
+INPUT ./Lecture 3.tex
+OUTPUT Lecture 3.aux
+INPUT ./Lecture 3.tex
+INPUT ./Lecture 3.tex
+INPUT ./Lecture 3.tex
+INPUT Lecture 3.tex
+INPUT ./Lecture 3.tex
+INPUT Lecture 3.tex
+INPUT ./Lecture 4.tex
+INPUT ./Lecture 4.tex
+INPUT ./Lecture 4.tex
+OUTPUT Lecture 4.aux
+INPUT ./Lecture 4.tex
+INPUT ./Lecture 4.tex
+INPUT ./Lecture 4.tex
+INPUT Lecture 4.tex
+INPUT ./Lecture 4.tex
+INPUT Lecture 4.tex
+INPUT ./Lecture 5.tex
+INPUT ./Lecture 5.tex
+INPUT ./Lecture 5.tex
+OUTPUT Lecture 5.aux
+INPUT ./Lecture 5.tex
+INPUT ./Lecture 5.tex
+INPUT ./Lecture 5.tex
+INPUT Lecture 5.tex
+INPUT ./Lecture 5.tex
+INPUT Lecture 5.tex
+INPUT ./Lecture 6.tex
+INPUT ./Lecture 6.tex
+INPUT ./Lecture 6.tex
+OUTPUT Lecture 6.aux
+INPUT ./Lecture 6.tex
+INPUT ./Lecture 6.tex
+INPUT ./Lecture 6.tex
+INPUT Lecture 6.tex
+INPUT ./Lecture 6.tex
+INPUT Lecture 6.tex
+INPUT ./Lecture 7.tex
+INPUT ./Lecture 7.tex
+INPUT ./Lecture 7.tex
+OUTPUT Lecture 7.aux
+INPUT ./Lecture 7.tex
+INPUT ./Lecture 7.tex
+INPUT ./Lecture 7.tex
+INPUT Lecture 7.tex
+INPUT ./Lecture 7.tex
+INPUT Lecture 7.tex
+INPUT ./Lecture 8.tex
+INPUT ./Lecture 8.tex
+INPUT ./Lecture 8.tex
+OUTPUT Lecture 8.aux
+INPUT ./Lecture 8.tex
+INPUT ./Lecture 8.tex
+INPUT ./Lecture 8.tex
+INPUT Lecture 8.tex
+INPUT ./Lecture 8.tex
+INPUT Lecture 8.tex
+INPUT ./Lecture 9.tex
+INPUT ./Lecture 9.tex
+INPUT ./Lecture 9.tex
+OUTPUT Lecture 9.aux
+INPUT ./Lecture 9.tex
+INPUT ./Lecture 9.tex
+INPUT ./Lecture 9.tex
+INPUT Lecture 9.tex
+INPUT ./Lecture 9.tex
+INPUT Lecture 9.tex
+INPUT ./Lecture 10.tex
+INPUT ./Lecture 10.tex
+INPUT ./Lecture 10.tex
+OUTPUT Lecture 10.aux
+INPUT ./Lecture 10.tex
+INPUT ./Lecture 10.tex
+INPUT ./Lecture 10.tex
+INPUT Lecture 10.tex
+INPUT ./Lecture 10.tex
+INPUT Lecture 10.tex
+INPUT ./Lecture 11.tex
+INPUT ./Lecture 11.tex
+INPUT ./Lecture 11.tex
+OUTPUT Lecture 11.aux
+INPUT ./Lecture 11.tex
+INPUT ./Lecture 11.tex
+INPUT ./Lecture 11.tex
+INPUT Lecture 11.tex
+INPUT ./Lecture 11.tex
+INPUT Lecture 11.tex
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
@@ -1286,6 +1429,39 @@ INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmti8.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
 INPUT Infinity Categories - Notes.aux
+INPUT ./Lecture 1.aux
+INPUT Lecture 1.aux
+INPUT Lecture 1.aux
+INPUT ./Lecture 2.aux
+INPUT Lecture 2.aux
+INPUT Lecture 2.aux
+INPUT ./Lecture 3.aux
+INPUT Lecture 3.aux
+INPUT Lecture 3.aux
+INPUT ./Lecture 4.aux
+INPUT Lecture 4.aux
+INPUT Lecture 4.aux
+INPUT ./Lecture 5.aux
+INPUT Lecture 5.aux
+INPUT Lecture 5.aux
+INPUT ./Lecture 6.aux
+INPUT Lecture 6.aux
+INPUT Lecture 6.aux
+INPUT ./Lecture 7.aux
+INPUT Lecture 7.aux
+INPUT Lecture 7.aux
+INPUT ./Lecture 8.aux
+INPUT Lecture 8.aux
+INPUT Lecture 8.aux
+INPUT ./Lecture 9.aux
+INPUT Lecture 9.aux
+INPUT Lecture 9.aux
+INPUT ./Lecture 10.aux
+INPUT Lecture 10.aux
+INPUT Lecture 10.aux
+INPUT ./Lecture 11.aux
+INPUT Lecture 11.aux
+INPUT Lecture 11.aux
 INPUT ./Infinity Categories - Notes.out
 INPUT ./Infinity Categories - Notes.out
 INPUT Infinity Categories - Notes.run.xml
@@ -1293,6 +1469,7 @@ OUTPUT Infinity Categories - Notes.run.xml
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb

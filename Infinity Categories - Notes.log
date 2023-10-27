@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  20 OCT 2023 22:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  26 OCT 2023 22:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -915,7 +915,7 @@ LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
 \c@theorem=\count465
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
- (./Infinity Categories - Notes.aux)
+ (./Infinity Categories - Notes.aux (./Lecture 1.aux) (./Lecture 2.aux) (./Lecture 3.aux) (./Lecture 4.aux) (./Lecture 5.aux) (./Lecture 6.aux) (./Lecture 7.aux) (./Lecture 8.aux) (./Lecture 9.aux) (./Lecture 10.aux) (./Lecture 11.aux))
 \openout1 = `"Infinity Categories - Notes.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -1027,133 +1027,226 @@ Package biblatex Info: Reference segment=0 on input line 37.
 \tf@toc=\write6
 \openout6 = `"Infinity Categories - Notes.toc"'.
 
- [1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 157--162
+ [1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+\openout2 = `"Lecture 1.aux"'.
+
+ (./Lecture 1.tex [2
+
+] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 110--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--162
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 168--172
+Underfull \hbox (badness 10000) in paragraph at lines 110--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--185
+Underfull \hbox (badness 10000) in paragraph at lines 121--125
 
  []
 
-[4] [5]
-Overfull \hbox (15.9374pt too wide) in paragraph at lines 315--316
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--138
+
+ []
+
+[4]) [5] [6]
+\openout2 = `"Lecture 2.aux"'.
+
+ (./Lecture 2.tex [7
+
+
+
+]
+Overfull \hbox (15.9374pt too wide) in paragraph at lines 72--73
 []\OT1/cmr/bx/n/10.95 Definition 2.6 \OT1/cmr/m/n/10.95 ($\OML/cmm/m/it/10.95 n$\OT1/cmr/m/n/10.95 -Simplex)\OT1/cmr/bx/n/10.95 . []\OT1/cmr/m/n/10.95 The $\OML/cmm/m/it/10.95 n$\OT1/cmr/m/n/10.95 -simplex is the func-tor $^^A[] : \U/eur/m/n/10.95 ^^A[] \OMS/cmsy/m/n/10.95 ! []$ \OT1/cmr/m/n/10.95 by $[\OML/cmm/m/it/10.95 k\OT1/cmr/m/n/10.95 ] \OMS/cmsy/m/n/10.95 7! [][]\OT1/cmr/m/n/10.95 ([\OML/cmm/m/it/10.95 k\OT1/cmr/m/n/10.95 ]\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 [\OML/cmm/m/it/10.95 n\OT1/cmr/m/n/10.95 ])$. 
  []
 
-[6] [7{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [8] [9] [10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 632--639
+[8]) [9{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+\openout2 = `"Lecture 3.aux"'.
+
+ (./Lecture 3.tex [10
+
+
+
+] [11] [12]) [13]
+\openout2 = `"Lecture 4.aux"'.
+
+ (./Lecture 4.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 632--639
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 632--639
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
 
  []
 
-[12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 733--735
+[14
 
- []
 
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 772--774
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 841--844
+Underfull \hbox (badness 10000) in paragraph at lines 142--144
 
  []
 
-[16] [17]
-Overfull \hbox (19.37294pt too wide) in paragraph at lines 975--976
+[16]) [17]
+\openout2 = `"Lecture 5.aux"'.
+
+ (./Lecture 5.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--5
+
+ []
+
+[18
+
+
+
+] [19]
+Overfull \hbox (19.37294pt too wide) in paragraph at lines 136--137
 []\OT1/cmr/bx/n/10.95 Theorem 5.9 \OT1/cmr/m/n/10.95 (Joyal)\OT1/cmr/bx/n/10.95 . []\OT1/cmr/m/n/10.95 If $\OML/cmm/m/it/10.95 W$ \OT1/cmr/m/n/10.95 is a qua-si-cat-e-gory and $\OML/cmm/m/it/10.95 X$ \OT1/cmr/m/n/10.95 a sim-pli-cial set, the cat-e-gory $[][](\OML/cmm/m/it/10.95 X; W\OT1/cmr/m/n/10.95 ) =
  []
 
-[18] [19]
-Underfull \hbox (badness 10000) in paragraph at lines 1101--1105
-
- []
-
 [20] [21]
-Underfull \hbox (badness 10000) in paragraph at lines 1198--1202
+Underfull \hbox (badness 10000) in paragraph at lines 262--266
 
  []
 
-[22] [23]
-Underfull \hbox (badness 10000) in paragraph at lines 1339--1343
+) [22]
+\openout2 = `"Lecture 6.aux"'.
+
+ (./Lecture 6.tex
+Underfull \hbox (badness 10000) in paragraph at lines 57--61
 
  []
 
-[24] [25] [26]
-Underfull \hbox (badness 10000) in paragraph at lines 1566--1569
+[23
+
+
+
+] [24]
+Underfull \hbox (badness 10000) in paragraph at lines 198--202
 
  []
 
-[27] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 1661--1664
+[25] [26]) [27]
+\openout2 = `"Lecture 7.aux"'.
+
+ (./Lecture 7.tex [28
+
+
+
+] [29]) [30]
+\openout2 = `"Lecture 8.aux"'.
+
+ (./Lecture 8.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
+
+ []
+
+) [31
+
+
+
+]
+\openout2 = `"Lecture 9.aux"'.
+
+ (./Lecture 9.tex [32
+
+
+
+]) [33]
+\openout2 = `"Lecture 10.aux"'.
+
+ (./Lecture 10.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1671--1674
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
 
  []
 
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 1724--1729
+[34
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 65--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1724--1729
+Underfull \hbox (badness 10000) in paragraph at lines 65--70
 
  []
 
-[30]
-Underfull \hbox (badness 10000) in paragraph at lines 1748--1752
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--93
 
  []
 
-[31] [32] [33] 
+[35]) [36]
+\openout2 = `"Lecture 11.aux"'.
+
+ (./Lecture 11.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--7
+
+ []
+
+[37
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 74--77
+
+ []
+
+[38]) [39] [40
+
+
+] 
 enddocument/afterlastpage: lastpage setting LastPage.
-(./Infinity Categories - Notes.aux)
+(./Infinity Categories - Notes.aux (./Lecture 1.aux) (./Lecture 2.aux) (./Lecture 3.aux) (./Lecture 4.aux) (./Lecture 5.aux) (./Lecture 6.aux) (./Lecture 7.aux) (./Lecture 8.aux) (./Lecture 9.aux) (./Lecture 10.aux) (./Lecture 11.aux))
 Package rerunfilecheck Info: File `"Infinity Categories - Notes".out' has not changed.
-(rerunfilecheck)             Checksum: 7644651834D688BA60146BF0690B3B46;2492.
+(rerunfilecheck)             Checksum: E2E6F4CF1D6E8D7188C9ABB6F0660AA4;2728.
 Package logreq Info: Writing requests to '"Infinity Categories - Notes".run.xml'.
 \openout1 = `"Infinity Categories - Notes.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40540 strings out of 476017
- 825185 string characters out of 5793766
+ 41236 strings out of 476017
+ 843397 string characters out of 5793766
  1891660 words of memory out of 5000000
- 60091 multiletter control sequences out of 15000+600000
+ 60692 multiletter control sequences out of 15000+600000
  527595 words of font info for 93 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 101i,16n,104p,1672b,1381s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/stmaryrd/stmary8.pfb>
-Output written on "Infinity Categories - Notes.pdf" (33 pages, 418143 bytes).
+ 101i,16n,104p,1692b,1381s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/stmaryrd/stmary8.pfb>
+Output written on "Infinity Categories - Notes.pdf" (40 pages, 437563 bytes).
 PDF statistics:
- 595 PDF objects out of 1000 (max. 8388607)
- 504 compressed objects within 6 object streams
- 207 named destinations out of 1000 (max. 500000)
- 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 653 PDF objects out of 1000 (max. 8388607)
+ 553 compressed objects within 6 object streams
+ 225 named destinations out of 1000 (max. 500000)
+ 117 words of extra memory for PDF output out of 10000 (max. 10000000)
 
