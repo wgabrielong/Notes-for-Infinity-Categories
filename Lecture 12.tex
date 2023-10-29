@@ -1,0 +1,92 @@
+\section{Lecture 12 -- 25th October 2023}
+Today we will continue learning about what is happening inside a quasicategory. In particular, getting a better understanding of isomorphisms and natural transformations. 
+\\\\
+Let $\Csf,\Dsf$ be categories. For $F,G:\Csf\to\Dsf$ and $\alpha:F\Rightarrow G$ a natural transformation, we can represent this data as a diagram as follows. 
+$$% https://q.uiver.app/#q=WzAsMixbMCwwLCJcXENzZiJdLFsyLDAsIlxcRHNmIl0sWzAsMSwiRiIsMCx7ImN1cnZlIjotMn1dLFswLDEsIkciLDIseyJjdXJ2ZSI6Mn1dLFsyLDMsIlxcYWxwaGEiLDAseyJzaG9ydGVuIjp7InNvdXJjZSI6MjAsInRhcmdldCI6MjB9fV1d
+\begin{tikzcd}
+	\Csf && \Dsf
+	\arrow[""{name=0, anchor=center, inner sep=0}, "F", curve={height=-12pt}, from=1-1, to=1-3]
+	\arrow[""{name=1, anchor=center, inner sep=0}, "G"', curve={height=12pt}, from=1-1, to=1-3]
+	\arrow["\alpha", shorten <=3pt, shorten >=3pt, Rightarrow, from=0, to=1]
+\end{tikzcd}$$
+If further $\alpha$ is a natural isomorphism of functors $F:\Csf\to\Dsf,G:\Csf\to\Dsf$ $\alpha(A):F(A)\to G(A)$ is an isomorphism in $\Dsf$ for all $A\in\Obj(\Csf)$. 
+\\\\
+Considering $F,G$ as objects of the functor category $\Fun(\Csf,\Dsf)=\Dsf^{\Csf}$ we can show that $\alpha\in\Mor_{\Dsf^{\Csf}}(F,G)$ is a natural isomorphism if and only if $\alpha$ is an isomorphism in the functor category. In the setting of categories, however, we can appeal to uniqueness of morphisms as between any two objects there is a set worth of morphisms between them. 
+\\\\
+Let us fix some notation to consider natural isomorphisms in the setting of quasicategories. Let $X$ be a quasicategory, $I$ a simplicial set, and $F,G:I\to X$ functors. A natural transformation $\alpha$ betwteen $F$ and $G$ is the data of some inclusion of a 1-simplex that restricts to $F$ and $G$ at the tip and tail of the arrow, respectively. 
+$$% https://q.uiver.app/#q=WzAsNyxbMSwxLCJcXERlbHRhXnswfSJdLFswLDAsIlxcRGVsdGFeezF9Il0sWzIsMCwiWF57SX0iXSxbNCwxXSxbNCwwLCJcXERlbHRhXnsxfSJdLFs1LDEsIlxcRGVsdGFeezB9Il0sWzYsMCwiWF57SX0iXSxbMCwyLCJGIiwxXSxbMSwyXSxbMCwxLCJcXGxhbmdsZTBcXHJhbmdsZSIsMV0sWzUsNCwiXFxsYW5nbGUxXFxyYW5nbGUiLDFdLFs1LDYsIkciLDFdLFs0LDZdXQ==
+\begin{tikzcd}
+	{\Delta^{1}} && {X^{I}} && {\Delta^{1}} && {X^{I}} \\
+	& {\Delta^{0}} &&& {} & {\Delta^{0}}
+	\arrow["F"{description}, from=2-2, to=1-3]
+	\arrow[from=1-1, to=1-3]
+	\arrow["\langle0\rangle"{description}, from=2-2, to=1-1]
+	\arrow["\langle1\rangle"{description}, from=2-6, to=1-5]
+	\arrow["G"{description}, from=2-6, to=1-7]
+	\arrow[from=1-5, to=1-7]
+\end{tikzcd}$$
+This can be phrased as an inclusion of a 1-simplex $\alpha:\Delta^{1}\to X^{I}$ in the functor category that restricts appropriately to $F$ and $G$. 
+$$% https://q.uiver.app/#q=WzAsNCxbMCwwLCJcXERlbHRhXnswfSJdLFsxLDEsIlxcRGVsdGFeezF9Il0sWzAsMiwiXFxEZWx0YV57MH0iXSxbMiwxLCJYXntJfSJdLFsxLDMsIlxcYWxwaGEiLDFdLFswLDMsIkYiLDEseyJjdXJ2ZSI6LTJ9XSxbMCwxLCJcXGxhbmdsZTBcXHJhbmdsZSIsMV0sWzIsMSwiXFxsYW5nbGUxXFxyYW5nbGUiLDFdLFsyLDMsIkciLDEseyJjdXJ2ZSI6Mn1dXQ==
+\begin{tikzcd}
+	{\Delta^{0}} \\
+	& {\Delta^{1}} & {X^{I}} \\
+	{\Delta^{0}}
+	\arrow["\alpha"{description}, from=2-2, to=2-3]
+	\arrow["F"{description}, curve={height=-12pt}, from=1-1, to=2-3]
+	\arrow["\langle0\rangle"{description}, from=1-1, to=2-2]
+	\arrow["\langle1\rangle"{description}, from=3-1, to=2-2]
+	\arrow["G"{description}, curve={height=12pt}, from=3-1, to=2-3]
+\end{tikzcd}$$
+This formulation of a natural transformation between simplicial sets allows us to formulate a condition for natural isomorphism as a condition of morphisms in the simplicial set $X^{I}$, here recalling the theorem of Joyal, \Cref{thm: Joyal on functor category of quasicategory and simplicial set}, showing that $X^{I}$ is endowed with the structure of a quasicategory. 
+\\\\
+We rewrite the 1-categorical condition for natural isomorphisms in the setting of quasicategories. Suppose $\alpha:\Delta^{1}\to X^{I}$ is a natural isomophism. As in the case of 1-categories, we want for all $i\in I$, $\alpha_{i}:\Delta^{1}\to X^{I}$. Reprhasing this as condition over the product of all $i\in I$, we take this as the condition for $I_{0}\to I$, the induced map of simplicial sets $X^{I_{0}}\to X^{I}$ has the property for all $\alpha:\Delta^{1}\to X^{I}$, the map $\alpha$ extends to a map $\widetilde{\alpha}:\Delta^{1}\to X^{I_{0}}$ making the diagram 
+$$% https://q.uiver.app/#q=WzAsMyxbMCwwLCJcXERlbHRhXnsxfSJdLFsyLDAsIlhee0l9Il0sWzIsMSwiWF57SV97MH19Il0sWzAsMiwiXFx3aWRldGlsZGV7XFxhbHBoYX0iLDJdLFswLDEsIlxcYWxwaGEiXSxbMSwyXV0=
+\begin{tikzcd}
+	{\Delta^{1}} && {X^{I}} \\
+	&& {X^{I_{0}}}
+	\arrow["{\widetilde{\alpha}}"', from=1-1, to=2-3]
+	\arrow["\alpha", from=1-1, to=1-3]
+	\arrow[from=1-3, to=2-3]
+\end{tikzcd}$$
+commute. This condition is stated as the following theorem. 
+\begin{theorem}[Pointwise Criterion for Natural Isomorphisms]\label{thm: pointwise for nat isos in quasicats}
+    If $X$ is a quasicategory and $I$ a simplicial set, the map $X^{I}\to X^{I_{0}}$ is conservative. 
+\end{theorem}
+We can see the beginning of the proof by considering the case of monomorphisms. 
+\begin{proposition}\label{prop: composition of conservative functors}
+    Suppose $X,Y,Z$ are quasicategories, $F:X\to Y, G:Y\to Z$ admitting a composition $G\circ F:X\to Z$. If $G\circ F$ is conservative then $F$ is conservative. 
+\end{proposition}
+\begin{proof}
+    If $f\in X_{1}$ is such that $F(f)$ is an isomorphism in $Y$ then $(G\circ F)(f)$ is an isomorphism in $Z$. But $G\circ F$ is conservative so $f$ is an isomophism. 
+\end{proof}
+More generally one can show the following. 
+\begin{lemma}
+    Let $X$ be a quasicategory and $J\to I$ a monomorphism of simplicial sets inducing an isomorphism $I_{0}\to J_{0}$. If $X^{I}\to X^{I_{0}}$ is a conservative inner fibration then so is $X^{J}\to X^{I}$. 
+\end{lemma}
+\begin{proof}
+    A theorem of Joyal, \Cref{thm: Joyal on functor category of quasicategory and simplicial set}, states that each of $X^{I}\to X^{I_{0}}, X^{J}\to X^{J_{0}}$ are inner fibrations. Considering the diagram 
+    $$% https://q.uiver.app/#q=WzAsNCxbMCwwLCJYXntJfSJdLFsyLDAsIlhee0p9Il0sWzAsMSwiWF57SV97MH19Il0sWzIsMSwiWF57Sl97MH19Il0sWzIsMywiXFxzaW0iXSxbMCwyXSxbMSwzXSxbMCwxXV0=
+    \begin{tikzcd}
+        {X^{J}} && {X^{I}} \\
+        {X^{J_{0}}} && {X^{I_{0}}}
+        \arrow["\sim", from=2-1, to=2-3]
+        \arrow[from=1-1, to=2-1]
+        \arrow[from=1-3, to=2-3]
+        \arrow[from=1-1, to=1-3]
+    \end{tikzcd}$$
+    the lower map is an isomorphism, so taking the composite $X^{I}\to X^{J}\to X^{J_{0}}$ is an inner fibration, in particular a left and right fibration, and thus conservative. Thus $X^{I}\to X^{J}$ is conservative by \Cref{prop: composition of conservative functors}. 
+\end{proof}
+We now work towards the proof of \Cref{thm: pointwise for nat isos in quasicats} by proving the following lemmata. 
+\begin{lemma}\label{lem: conservativity of higher simplices}
+    For $n\geq 2$, the map $X^{\Delta^{n}}\to X^{\partial\Delta^{n}}$ is a conservative inner fibration. 
+\end{lemma}
+\begin{proof}
+    Let $I^{n}\to\Delta^{n}$ be the spine inclusion to the $n$-simplex, recall this is the inclusion of $0\to 1\to 2\to\dots\to n$ to $\Delta^{n}$. This is inner anodyne for $n\geq 1$ so $X^{\Delta^{n}}\to X^{I^{n}}$ is an acyclic Kan fibration, and hence conservative. 
+\end{proof}
+The following result for the $\Delta^{1}$ is surprisingly more technical. 
+\begin{lemma}\label{lem: conservativity of one simplex}
+    The map $X^{\Delta^{1}}\to X^{\partial\Delta^{1}}$ is a conservative inner fibration. 
+\end{lemma}
+\begin{proof}
+    This map is an inner fibration, induced by a the stronger version of Joyal's theorem, since $\partial\Delta^{1}\to\Delta^{1}$ is a monomorphism of simplicial sets. 
+\end{proof}

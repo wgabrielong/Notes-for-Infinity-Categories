@@ -10,4 +10,5 @@
 \contentsline {section}{\tocsection {}{9}{Lecture 9 -- 16th October 2023}}{32}{section.9}%
 \contentsline {section}{\tocsection {}{10}{Lecture 10 -- 18th October 2023}}{34}{section.10}%
 \contentsline {section}{\tocsection {}{11}{Lecture 11 -- 23rd October 2023}}{37}{section.11}%
-\contentsline {section}{\tocsection {}{}{References}}{40}{section*.3}%
+\contentsline {section}{\tocsection {}{12}{Lecture 12 -- 25th October 2023}}{40}{section.12}%
+\contentsline {section}{\tocsection {}{}{References}}{42}{section*.3}%
