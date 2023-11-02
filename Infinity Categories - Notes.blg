@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'Infinity Categories - Notes.blg'
-[145] biber-MSWIN64:340> INFO - === 
-[187] Biber.pm:419> INFO - Reading 'Infinity Categories - Notes.bcf'
-[330] Biber.pm:979> INFO - Found 4 citekeys in bib section 0
-[349] Biber.pm:4419> INFO - Processing section 0
-[365] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
-[421] bibtex.pm:1713> INFO - LaTeX decoding ...
-[430] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
-[512] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[513] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[513] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[513] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[522] bbl.pm:660> INFO - Writing 'Infinity Categories - Notes.bbl' with encoding 'UTF-8'
-[524] bbl.pm:763> INFO - Output to Infinity Categories - Notes.bbl
+[155] biber-MSWIN64:340> INFO - === 
+[199] Biber.pm:419> INFO - Reading 'Infinity Categories - Notes.bcf'
+[355] Biber.pm:979> INFO - Found 4 citekeys in bib section 0
+[375] Biber.pm:4419> INFO - Processing section 0
+[392] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
+[452] bibtex.pm:1713> INFO - LaTeX decoding ...
+[466] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
+[546] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[547] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[547] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[547] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[558] bbl.pm:660> INFO - Writing 'Infinity Categories - Notes.bbl' with encoding 'UTF-8'
+[560] bbl.pm:763> INFO - Output to Infinity Categories - Notes.bbl
