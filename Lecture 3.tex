@@ -22,7 +22,7 @@ One can easily show that isomorphisms are preserved by functors.
   \end{tikzcd}$$
   More explicitly, there exists $g\in\Mor_{\Csf}(B,A)$ such that $g\circ f=\id_{A}$ and $f\circ g=\id_{B}$ so by functoriality we have $F(g)\circ F(f)=\id_{F(A)},F(f)\circ F(g)=\id_{F(B)}$ as desired. 
 \end{proof}
-The acute would percieve that \Cref{def:isomorphism} may be slightly problematic since it involves some choice of $g\in\Mor_{\Csf}(B,A)$. The following proposition resolves this issue, showing that such a choice is unique. 
+The acute would perceive that \Cref{def:isomorphism} may be slightly problematic since it involves some choice of $g\in\Mor_{\Csf}(B,A)$. The following proposition resolves this issue, showing that such a choice is unique. 
 \begin{proposition}
   Let $\Csf$ be a category and $f\in\Mor_{\Csf}(A,B)$ is an isomorphism. If $g_{1},g_{2}\in\Mor_{\Csf}(B,A)$ satisfies $g_{i}\circ f=\id_{A}$ and $f\circ g_{i}=\id_{B}$ for $i\in\{1,2\}$ then $g_{1}=g_{2}$. 
 \end{proposition}
@@ -192,7 +192,7 @@ We now define essential surjectivity as follows.
   A functor $F:\Csf\to\Dsf$ is essentially surjective if for all $B\in\Obj(\Dsf)$ there is an isomorphism $F(X)\to B$ in $\Dsf$. 
 \end{definition}
 We then define an isomorphism of functors as follows. 
-\begin{definition}
+\begin{definition}[Categorical Equivalence]\label{def: categorical equivalence}
   A functor is an isomorphism if it is fully faithful and essentially surjective. 
 \end{definition}
 We have done a lot of work to think about basic notions such as isomorphisms in new ways. Now let us return to the hunble morphism. Recall that a morphism in a category $\Csf$ is a morphism from the free walking morphism $0\to 1$ to $\Csf$. More explicitly, we have a diagram
