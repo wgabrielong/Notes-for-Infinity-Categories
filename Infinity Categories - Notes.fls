@@ -1204,6 +1204,9 @@ INPUT Lecture 14.aux
 INPUT ./Lecture 15.aux
 INPUT Lecture 15.aux
 INPUT Lecture 15.aux
+INPUT ./Lecture 16.aux
+INPUT Lecture 16.aux
+INPUT Lecture 16.aux
 OUTPUT Infinity Categories - Notes.aux
 INPUT c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
@@ -1461,6 +1464,16 @@ INPUT ./Lecture 15.tex
 INPUT Lecture 15.tex
 INPUT ./Lecture 15.tex
 INPUT Lecture 15.tex
+INPUT ./Lecture 16.tex
+INPUT ./Lecture 16.tex
+INPUT ./Lecture 16.tex
+OUTPUT Lecture 16.aux
+INPUT ./Lecture 16.tex
+INPUT ./Lecture 16.tex
+INPUT ./Lecture 16.tex
+INPUT Lecture 16.tex
+INPUT ./Lecture 16.tex
+INPUT Lecture 16.tex
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
@@ -1526,6 +1539,9 @@ INPUT Lecture 14.aux
 INPUT ./Lecture 15.aux
 INPUT Lecture 15.aux
 INPUT Lecture 15.aux
+INPUT ./Lecture 16.aux
+INPUT Lecture 16.aux
+INPUT Lecture 16.aux
 INPUT ./Infinity Categories - Notes.out
 INPUT ./Infinity Categories - Notes.out
 INPUT Infinity Categories - Notes.run.xml
