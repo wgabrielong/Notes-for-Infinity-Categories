@@ -50,6 +50,75 @@
       \verb 2210.08945
       \endverb
     \endentry
+    \entry{Land}{book}{}
+      \name{author}{1}{}{%
+        {{hash=979364cabca54f14a6b3fed588cc6701}{%
+           family={Land},
+           familyi={L\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Cham: Birkhäuser}%
+      }
+      \strng{namehash}{979364cabca54f14a6b3fed588cc6701}
+      \strng{fullhash}{979364cabca54f14a6b3fed588cc6701}
+      \strng{bibnamehash}{979364cabca54f14a6b3fed588cc6701}
+      \strng{authorbibnamehash}{979364cabca54f14a6b3fed588cc6701}
+      \strng{authornamehash}{979364cabca54f14a6b3fed588cc6701}
+      \strng{authorfullhash}{979364cabca54f14a6b3fed588cc6701}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-030-61523-9; 978-3-030-61524-6}
+      \field{issn}{2296-4568}
+      \field{series}{Compact Textb. Math.}
+      \field{title}{Introduction to infinity-categories}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1007/978-3-030-61524-6
+      \endverb
+      \keyw{18-01,18Nxx}
+    \endentry
+    \entry{LurieHTT}{book}{}
+      \name{author}{1}{}{%
+        {{hash=760ea879284b1a6eeaad87a82be8d1d7}{%
+           family={Lurie},
+           familyi={L\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Princeton, NJ: Princeton University Press}%
+      }
+      \strng{namehash}{760ea879284b1a6eeaad87a82be8d1d7}
+      \strng{fullhash}{760ea879284b1a6eeaad87a82be8d1d7}
+      \strng{bibnamehash}{760ea879284b1a6eeaad87a82be8d1d7}
+      \strng{authorbibnamehash}{760ea879284b1a6eeaad87a82be8d1d7}
+      \strng{authornamehash}{760ea879284b1a6eeaad87a82be8d1d7}
+      \strng{authorfullhash}{760ea879284b1a6eeaad87a82be8d1d7}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-691-14049-0; 978-0-691-14048-3}
+      \field{series}{Ann. Math. Stud.}
+      \field{title}{Higher topos theory}
+      \field{volume}{170}
+      \field{year}{2009}
+      \verb{doi}
+      \verb 10.1515/9781400830558
+      \endverb
+      \keyw{18-02,18B25,18G30,18G55,18F20}
+    \endentry
     \entry{kerodon}{misc}{}
       \name{author}{1}{}{%
         {{hash=760ea879284b1a6eeaad87a82be8d1d7}{%
@@ -64,6 +133,7 @@
       \strng{authorbibnamehash}{760ea879284b1a6eeaad87a82be8d1d7}
       \strng{authornamehash}{760ea879284b1a6eeaad87a82be8d1d7}
       \strng{authorfullhash}{760ea879284b1a6eeaad87a82be8d1d7}
+      \field{extraname}{2}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}

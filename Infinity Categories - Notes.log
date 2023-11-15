@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  10 NOV 2023 19:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.10)  15 NOV 2023 17:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -915,7 +915,7 @@ LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
 \c@theorem=\count465
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
- (./Infinity Categories - Notes.aux (./Lecture 1.aux) (./Lecture 2.aux) (./Lecture 3.aux) (./Lecture 4.aux) (./Lecture 5.aux) (./Lecture 6.aux) (./Lecture 7.aux) (./Lecture 8.aux) (./Lecture 9.aux) (./Lecture 10.aux) (./Lecture 11.aux) (./Lecture 12.aux) (./Lecture 13.aux) (./Lecture 14.aux) (./Lecture 15.aux) (./Lecture 16.aux))
+ (./Infinity Categories - Notes.aux (./Lecture 1.aux) (./Lecture 2.aux) (./Lecture 3.aux) (./Lecture 4.aux) (./Lecture 5.aux) (./Lecture 6.aux) (./Lecture 7.aux) (./Lecture 8.aux) (./Lecture 9.aux) (./Lecture 10.aux) (./Lecture 11.aux) (./Lecture 12.aux) (./Lecture 13.aux) (./Lecture 14.aux) (./Lecture 15.aux) (./Lecture 16.aux) (./Lecture 17.aux) (./Lecture 18.aux))
 \openout1 = `"Infinity Categories - Notes.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -1365,31 +1365,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--114
 
  []
 
-[55]) [56] [57
+[55]) [56]
+\openout2 = `"Lecture 17.aux"'.
+
+ (./Lecture 17.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--24
+
+ []
+
+[57
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 55--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
+
+ []
+
+[58]) [59]
+\openout2 = `"Lecture 18.aux"'.
+
+ (./Lecture 18.tex) [60
+
+
+
+] [61
 
 
 ] 
 enddocument/afterlastpage: lastpage setting LastPage.
-(./Infinity Categories - Notes.aux (./Lecture 1.aux) (./Lecture 2.aux) (./Lecture 3.aux) (./Lecture 4.aux) (./Lecture 5.aux) (./Lecture 6.aux) (./Lecture 7.aux) (./Lecture 8.aux) (./Lecture 9.aux) (./Lecture 10.aux) (./Lecture 11.aux) (./Lecture 12.aux) (./Lecture 13.aux) (./Lecture 14.aux) (./Lecture 15.aux) (./Lecture 16.aux))
+(./Infinity Categories - Notes.aux (./Lecture 1.aux) (./Lecture 2.aux) (./Lecture 3.aux) (./Lecture 4.aux) (./Lecture 5.aux) (./Lecture 6.aux) (./Lecture 7.aux) (./Lecture 8.aux) (./Lecture 9.aux) (./Lecture 10.aux) (./Lecture 11.aux) (./Lecture 12.aux) (./Lecture 13.aux) (./Lecture 14.aux) (./Lecture 15.aux) (./Lecture 16.aux) (./Lecture 17.aux) (./Lecture 18.aux))
 Package rerunfilecheck Info: File `"Infinity Categories - Notes".out' has not changed.
-(rerunfilecheck)             Checksum: 58B86E2C06EAA988252DA7371A93631E;3908.
+(rerunfilecheck)             Checksum: 298CF9A6C555C7A43EC1E6CC9DCC91CF;4390.
 Package logreq Info: Writing requests to '"Infinity Categories - Notes".run.xml'.
 \openout1 = `"Infinity Categories - Notes.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44370 strings out of 476017
- 925955 string characters out of 5793766
+ 44645 strings out of 476017
+ 932948 string characters out of 5793766
  1891660 words of memory out of 5000000
- 63733 multiletter control sequences out of 15000+600000
+ 63972 multiletter control sequences out of 15000+600000
  527595 words of font info for 93 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  101i,16n,104p,1692b,1381s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/stmaryrd/stmary8.pfb>
-Output written on "Infinity Categories - Notes.pdf" (57 pages, 523087 bytes).
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/stmaryrd/stmary8.pfb>
+Output written on "Infinity Categories - Notes.pdf" (61 pages, 542208 bytes).
 PDF statistics:
- 839 PDF objects out of 1000 (max. 8388607)
- 720 compressed objects within 8 object streams
- 283 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 896 PDF objects out of 1000 (max. 8388607)
+ 771 compressed objects within 8 object streams
+ 305 named destinations out of 1000 (max. 500000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
 

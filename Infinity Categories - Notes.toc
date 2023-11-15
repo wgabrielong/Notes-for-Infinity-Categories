@@ -15,4 +15,6 @@
 \contentsline {section}{\tocsection {}{14}{Lecture 14 -- 1st November 2023}}{50}{section.14}%
 \contentsline {section}{\tocsection {}{15}{Lecture 15 -- 6th November 2023}}{52}{section.15}%
 \contentsline {section}{\tocsection {}{16}{Lecture 16 -- 8th November 2023}}{54}{section.16}%
-\contentsline {section}{\tocsection {}{}{References}}{57}{section*.3}%
+\contentsline {section}{\tocsection {}{17}{Lecture 17 -- 13th November 2023}}{57}{section.17}%
+\contentsline {section}{\tocsection {}{18}{Lecture 18 -- 15th November 2023}}{60}{section.18}%
+\contentsline {section}{\tocsection {}{}{References}}{61}{section*.3}%

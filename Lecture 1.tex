@@ -1,10 +1,10 @@
 \section{Lecture 1 -- 6th September 2023}
 Understanding infinity categories is a daunting task. Ideally, we will end this class with the student being conversant in the language of infinity categories, though this may be difficult to achieve. Let us start with the definition of a (1-)category. 
 \begin{definition}[Category]
-    A category $\Csf$ is a class $\Obj(\Csf)$ and for each $A,B\in\Obj(\Csf)$ a set $\Mor_{\Csf}(A,B)$ of morphisms from $A$ to $B$ such that
+    A category $\Csf$ is a class $\Obj(\Csf)$ and for $A,B\in\Obj(\Csf)$ a set $\Mor_{\Csf}(A,B)$ of morphisms from $A$ to $B$ such that
     \begin{enumerate}[label=(\alph*)]
         \item $\id_{A}\in\Mor_{\Csf}(A,A)$,
-        \item A composition law $\Mor_{\Csf}(B,C)\times\Mor_{\Csf}(A,B)\to\Mor_{\Csf}(A,C)$ by $(g,f)\mapsto g\circ f$ that is unital $\id_{A}\circ f=f=f\circ\id_{B}$ and associating $(g\circ f)\circ h=g\circ(f\circ h)$. 
+        \item and a composition law $\Mor_{\Csf}(B,C)\times\Mor_{\Csf}(A,B)\to\Mor_{\Csf}(A,C)$ by $(g,f)\mapsto g\circ f$ that is unital $\id_{A}\circ f=f=f\circ\id_{B}$ and associating $(g\circ f)\circ h=g\circ(f\circ h)$. 
     \end{enumerate}
 \end{definition}
 \begin{remark}

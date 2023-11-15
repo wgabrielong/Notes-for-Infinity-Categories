@@ -1,15 +1,18 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'Infinity Categories - Notes.blg'
-[185] biber-MSWIN64:340> INFO - === 
-[240] Biber.pm:419> INFO - Reading 'Infinity Categories - Notes.bcf'
-[414] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
-[436] Biber.pm:4419> INFO - Processing section 0
-[454] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
-[520] bibtex.pm:1713> INFO - LaTeX decoding ...
-[541] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
-[637] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[638] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[638] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[638] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[649] bbl.pm:660> INFO - Writing 'Infinity Categories - Notes.bbl' with encoding 'UTF-8'
-[651] bbl.pm:763> INFO - Output to Infinity Categories - Notes.bbl
+[180] biber-MSWIN64:340> INFO - === 
+[234] Biber.pm:419> INFO - Reading 'Infinity Categories - Notes.bcf'
+[435] Biber.pm:979> INFO - Found 7 citekeys in bib section 0
+[469] Biber.pm:4419> INFO - Processing section 0
+[499] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
+[551] bibtex.pm:1713> INFO - LaTeX decoding ...
+[570] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
+[683] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[683] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[684] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[684] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[698] bbl.pm:660> INFO - Writing 'Infinity Categories - Notes.bbl' with encoding 'UTF-8'
+[701] bbl.pm:763> INFO - Output to Infinity Categories - Notes.bbl
+[702] Biber.pm:131> WARN - ISBN '978-3-030-61523-9; 978-3-030-61524-6' in entry 'Land' is invalid - run biber with '--validate_datamodel' for details.
+[702] Biber.pm:131> WARN - ISBN '978-0-691-14049-0; 978-0-691-14048-3' in entry 'LurieHTT' is invalid - run biber with '--validate_datamodel' for details.
+[702] Biber.pm:133> INFO - WARNINGS: 2
