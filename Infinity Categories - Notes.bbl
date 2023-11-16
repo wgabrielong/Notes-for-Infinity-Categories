@@ -19,6 +19,76 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{AyalaFrancis}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=6e3c728a4819bfbf74e45e1ccf4b5987}{%
+           family={Ayala},
+           familyi={A\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1adaff221576fd5e3ef30f94d658dc6f}{%
+           family={Francis},
+           familyi={F\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{53b8b753bfe2a832723bdfc8aee7cff8}
+      \strng{fullhash}{53b8b753bfe2a832723bdfc8aee7cff8}
+      \strng{bibnamehash}{53b8b753bfe2a832723bdfc8aee7cff8}
+      \strng{authorbibnamehash}{53b8b753bfe2a832723bdfc8aee7cff8}
+      \strng{authornamehash}{53b8b753bfe2a832723bdfc8aee7cff8}
+      \strng{authorfullhash}{53b8b753bfe2a832723bdfc8aee7cff8}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{math.AT}
+      \field{eprinttype}{arXiv}
+      \field{title}{The cobordism hypothesis}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1705.02240
+      \endverb
+    \endentry
+    \entry{CalaqueScheimbauer}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e13051ccc52ad148e6a00e142c07c089}{%
+           family={Calaque},
+           familyi={C\bibinitperiod},
+           given={Damien},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d6981b11afa11f099d007ef8f3986b09}{%
+           family={Scheimbauer},
+           familyi={S\bibinitperiod},
+           given={Claudia},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{639d579e96dea330ed90e103de4cd210}
+      \strng{fullhash}{639d579e96dea330ed90e103de4cd210}
+      \strng{bibnamehash}{639d579e96dea330ed90e103de4cd210}
+      \strng{authorbibnamehash}{639d579e96dea330ed90e103de4cd210}
+      \strng{authornamehash}{639d579e96dea330ed90e103de4cd210}
+      \strng{authorfullhash}{639d579e96dea330ed90e103de4cd210}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1472-2747}
+      \field{journaltitle}{Algebr. Geom. Topol.}
+      \field{number}{2}
+      \field{title}{A note on the {{\((\infty,n)\)}}-category of cobordisms}
+      \field{volume}{19}
+      \field{year}{2019}
+      \field{pages}{533\bibrangedash 655}
+      \range{pages}{123}
+      \verb{doi}
+      \verb 10.2140/agt.2019.19.533
+      \endverb
+      \keyw{18D05,57R56}
+    \endentry
     \entry{Cisinski}{misc}{}
       \name{author}{2}{}{%
         {{hash=7dd2ed2fa26fc7e09189bfc17e41911a}{%
@@ -48,6 +118,71 @@
       \field{year}{2022}
       \verb{eprint}
       \verb 2210.08945
+      \endverb
+    \endentry
+    \entry{Freed}{article}{}
+      \name{author}{1}{}{%
+        {{hash=fe9ff8deaffced420e1b155c083b3d37}{%
+           family={Freed},
+           familyi={F\bibinitperiod},
+           given={Daniel\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{fe9ff8deaffced420e1b155c083b3d37}
+      \strng{fullhash}{fe9ff8deaffced420e1b155c083b3d37}
+      \strng{bibnamehash}{fe9ff8deaffced420e1b155c083b3d37}
+      \strng{authorbibnamehash}{fe9ff8deaffced420e1b155c083b3d37}
+      \strng{authornamehash}{fe9ff8deaffced420e1b155c083b3d37}
+      \strng{authorfullhash}{fe9ff8deaffced420e1b155c083b3d37}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0273-0979}
+      \field{journaltitle}{Bull. Am. Math. Soc., New Ser.}
+      \field{number}{1}
+      \field{title}{The cobordism hypothesis}
+      \field{volume}{50}
+      \field{year}{2013}
+      \field{pages}{57\bibrangedash 92}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1090/S0273-0979-2012-01393-9
+      \endverb
+      \keyw{57R56,81T45}
+    \endentry
+    \entry{GradyPavlov}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=67b51673cf424e7810af159c6716ab4b}{%
+           family={Grady},
+           familyi={G\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9688eff3fc2f83fe319a45a8edd093f1}{%
+           family={Pavlov},
+           familyi={P\bibinitperiod},
+           given={Dmitri},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c5478659eb993ba2d8b43e42609a0870}
+      \strng{fullhash}{c5478659eb993ba2d8b43e42609a0870}
+      \strng{bibnamehash}{c5478659eb993ba2d8b43e42609a0870}
+      \strng{authorbibnamehash}{c5478659eb993ba2d8b43e42609a0870}
+      \strng{authornamehash}{c5478659eb993ba2d8b43e42609a0870}
+      \strng{authorfullhash}{c5478659eb993ba2d8b43e42609a0870}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{math.AT}
+      \field{eprinttype}{arXiv}
+      \field{title}{The geometric cobordism hypothesis}
+      \field{year}{2022}
+      \verb{eprint}
+      \verb 2111.01095
       \endverb
     \endentry
     \entry{Land}{book}{}
