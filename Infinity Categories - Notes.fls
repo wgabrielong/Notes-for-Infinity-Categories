@@ -1213,6 +1213,18 @@ INPUT Lecture 17.aux
 INPUT ./Lecture 18.aux
 INPUT Lecture 18.aux
 INPUT Lecture 18.aux
+INPUT ./Lecture 19.aux
+INPUT Lecture 19.aux
+INPUT Lecture 19.aux
+INPUT ./Lecture 20.aux
+INPUT Lecture 20.aux
+INPUT Lecture 20.aux
+INPUT ./Lecture 21.aux
+INPUT Lecture 21.aux
+INPUT Lecture 21.aux
+INPUT ./Lecture 22.aux
+INPUT Lecture 22.aux
+INPUT Lecture 22.aux
 OUTPUT Infinity Categories - Notes.aux
 INPUT c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
@@ -1519,6 +1531,46 @@ INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/euler/eurm10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/euler/eurm7.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/stmaryrd/stmary10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/stmaryrd/stmary7.tfm
+INPUT ./Lecture 19.tex
+INPUT ./Lecture 19.tex
+INPUT ./Lecture 19.tex
+OUTPUT Lecture 19.aux
+INPUT ./Lecture 19.tex
+INPUT ./Lecture 19.tex
+INPUT ./Lecture 19.tex
+INPUT Lecture 19.tex
+INPUT ./Lecture 19.tex
+INPUT Lecture 19.tex
+INPUT ./Lecture 20.tex
+INPUT ./Lecture 20.tex
+INPUT ./Lecture 20.tex
+OUTPUT Lecture 20.aux
+INPUT ./Lecture 20.tex
+INPUT ./Lecture 20.tex
+INPUT ./Lecture 20.tex
+INPUT Lecture 20.tex
+INPUT ./Lecture 20.tex
+INPUT Lecture 20.tex
+INPUT ./Lecture 21.tex
+INPUT ./Lecture 21.tex
+INPUT ./Lecture 21.tex
+OUTPUT Lecture 21.aux
+INPUT ./Lecture 21.tex
+INPUT ./Lecture 21.tex
+INPUT ./Lecture 21.tex
+INPUT Lecture 21.tex
+INPUT ./Lecture 21.tex
+INPUT Lecture 21.tex
+INPUT ./Lecture 22.tex
+INPUT ./Lecture 22.tex
+INPUT ./Lecture 22.tex
+OUTPUT Lecture 22.aux
+INPUT ./Lecture 22.tex
+INPUT ./Lecture 22.tex
+INPUT ./Lecture 22.tex
+INPUT Lecture 22.tex
+INPUT ./Lecture 22.tex
+INPUT Lecture 22.tex
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
@@ -1579,6 +1631,18 @@ INPUT Lecture 17.aux
 INPUT ./Lecture 18.aux
 INPUT Lecture 18.aux
 INPUT Lecture 18.aux
+INPUT ./Lecture 19.aux
+INPUT Lecture 19.aux
+INPUT Lecture 19.aux
+INPUT ./Lecture 20.aux
+INPUT Lecture 20.aux
+INPUT Lecture 20.aux
+INPUT ./Lecture 21.aux
+INPUT Lecture 21.aux
+INPUT Lecture 21.aux
+INPUT ./Lecture 22.aux
+INPUT Lecture 22.aux
+INPUT Lecture 22.aux
 INPUT ./Infinity Categories - Notes.out
 INPUT ./Infinity Categories - Notes.out
 INPUT Infinity Categories - Notes.run.xml

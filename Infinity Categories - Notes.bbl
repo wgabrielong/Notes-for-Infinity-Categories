@@ -185,6 +185,72 @@
       \verb 2111.01095
       \endverb
     \endentry
+    \entry{HarpazAmbi}{article}{}
+      \name{author}{1}{}{%
+        {{hash=44628222b12b42aeb3ef891c47c5e555}{%
+           family={Harpaz},
+           familyi={H\bibinitperiod},
+           given={Yonatan},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{44628222b12b42aeb3ef891c47c5e555}
+      \strng{fullhash}{44628222b12b42aeb3ef891c47c5e555}
+      \strng{bibnamehash}{44628222b12b42aeb3ef891c47c5e555}
+      \strng{authorbibnamehash}{44628222b12b42aeb3ef891c47c5e555}
+      \strng{authornamehash}{44628222b12b42aeb3ef891c47c5e555}
+      \strng{authorfullhash}{44628222b12b42aeb3ef891c47c5e555}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0024-6115}
+      \field{journaltitle}{Proc. Lond. Math. Soc. (3)}
+      \field{number}{5}
+      \field{title}{Ambidexterity and the universality of finite spans}
+      \field{volume}{121}
+      \field{year}{2020}
+      \field{pages}{1121\bibrangedash 1170}
+      \range{pages}{50}
+      \verb{doi}
+      \verb 10.1112/plms.12367
+      \endverb
+      \keyw{55U35,57R56,18B35,18N10,18Mxx}
+    \endentry
+    \entry{LuriHopkinsAmbi}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=b0d11472e9bb092317f71e67e46d1f55}{%
+           family={Hopkins},
+           familyi={H\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=760ea879284b1a6eeaad87a82be8d1d7}{%
+           family={Lurie},
+           familyi={L\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a32cac698f6c241aa187e3302263d68e}
+      \strng{fullhash}{a32cac698f6c241aa187e3302263d68e}
+      \strng{bibnamehash}{a32cac698f6c241aa187e3302263d68e}
+      \strng{authorbibnamehash}{a32cac698f6c241aa187e3302263d68e}
+      \strng{authornamehash}{a32cac698f6c241aa187e3302263d68e}
+      \strng{authorfullhash}{a32cac698f6c241aa187e3302263d68e}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ambidexterity in $K(n)$-Local Stable Homotopy Theory}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://www.math.ias.edu/~lurie/papers/Ambidexterity.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.math.ias.edu/~lurie/papers/Ambidexterity.pdf
+      \endverb
+    \endentry
     \entry{Land}{book}{}
       \name{author}{1}{}{%
         {{hash=979364cabca54f14a6b3fed588cc6701}{%
